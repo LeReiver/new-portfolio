@@ -1,4 +1,49 @@
+p {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+button {
+  cursor: pointer;
+  margin: 30px auto;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+button:hover {
+  color: white;
+  background: rgb(29, 71, 126);
+}
+
 .main-title {
   margin: 200px auto;
   width: 600px;
+}
+
+@media only screen and (min-width: 300px) {
+
+  p,
+  .main-title {
+    width: 300px;
+    padding: 0;
+    margin: 130px auto;
+  }
+
+  p {
+    text-align: justify;
+    margin: -40px auto;
+  }
+
+  button {
+    margin: 60px auto 100px auto;
+  }
+
 }
