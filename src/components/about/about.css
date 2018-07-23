@@ -30,8 +30,8 @@ button:hover {
   background: rgb(29, 71, 126);
 }
 
-.main-title {
-  margin: 130px auto 50px auto;
+.about-title {
+  margin: 30px auto 50px auto;
   color: white;
   font-size: 45px;
   font-weight: 400;
@@ -44,10 +44,10 @@ button:hover {
 @media only screen and (max-width: 550px) {
 
   p, p.p2,
-  .main-title {
+  .about-title {
     width: 300px;
     padding: 0;
-    margin: 80px auto 20px auto;
+    margin: 20px auto 20px auto;
     font-size: 180%;
   }
 
