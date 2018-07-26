@@ -7,6 +7,7 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  display: inline-block;
 }
 
 .footer-title {
@@ -14,4 +15,30 @@ footer {
   font-size: 30px;
   float: left;
   margin-bottom: 10px;
+}
+/* 
+#footer-email {
+  height: 38px;
+}
+#footer-linkedIn {
+  height: 35px;
+}
+#footer-github {
+  height: 38px;
+} */
+
+.footer-item {
+  margin: 20px 20px 40px 20px;;
+  display: inline-block;
+  color: white;
+}
+.footer-item i {
+  color: white;
+  font-size: 30px;
+  margin: -10px auto 5px auto;
+}
+
+
+.footer-item i:hover {
+  color: yellow;
 }

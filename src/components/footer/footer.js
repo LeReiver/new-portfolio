@@ -6,6 +6,25 @@ export default class Footer extends Component {
     return (
       <footer>
           <h1 className="footer-title">Contact Me</h1>
+            <div className="footer-item">
+              <a href="https://www.linkedin.com/in/mreiver" target="_blank" rel="noopener noreferrer"><i id="footer-linkedIn" className="fa fa-linkedin-square" aria-hidden="true" 
+              alt="To my LinkedIn" /></a>
+              <div>LinkedIn</div>
+            </div>
+            <div className="footer-item">
+              <a href="https://github.com/LeReiver" target="_blank" rel="noopener noreferrer"><i id="footer-github" 
+              className="fa fa-github-square" aria-hidden="true" 
+              alt="To my GitHub" /></a>
+              <div>GitHub</div>
+            </div>
+            <div className="footer-item">
+              <a href="mailto:info@lereiver.com">
+                <i id="footer-email"
+                className="fa fa-envelope" aria-hidden="true"
+                alt="Email me" />
+              </a>
+            <div>Email Me</div>
+        </div>
       </footer>
     );
   }

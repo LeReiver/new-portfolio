@@ -41,6 +41,43 @@ button:hover {
   text-align: start;
 }
 
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin-top: 100px;
+  width: 800px;
+  z-index: -1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* .circle img {
+  border-radius: 50%;
+  display: block;
+  border: 1px solid white;
+} */
+
+.circle:after {
+  content: "";
+  display: block;
+  /* background: radial-gradient(ellipse at center, rgba(255,255,255,0) 10%,rgba(255,255,255,0.5) 70%,rgba(255,255,255,1) 100%); */
+    /* background: radial-gradient(ellipse at center, rgba(73, 67, 67, 0.39) 10%,rgba(15, 32, 70, 0.5) 70%,rgb(5, 5, 7) 100%); */
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.555) 10%,rgba(0, 0, 0, 0.5) 70%,rgb(5, 5, 7) 100%);
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 @media only screen and (max-width: 550px) {
 
   p, p.p2,
