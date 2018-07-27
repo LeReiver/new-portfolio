@@ -34,6 +34,7 @@ header {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 25px;
+  transition: 0.8s;
 }
 
 .active {
@@ -47,6 +48,7 @@ header {
 
 .topnav a:hover {
   color: yellow;
+  transition: 0.8s;
 }
 
 

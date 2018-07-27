@@ -11,27 +11,8 @@ p.p2 {
   margin: 30px auto;
 }
 
-button {
-  cursor: pointer;
-  margin:  5px auto 30px auto;
-  font-size: 20px;
-  width: 200px;
-  height: 30px;
-  padding-bottom: 2px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-}
-
-button:hover {
-  color: white;
-  background: rgb(29, 71, 126);
-}
-
 .about-title {
-  margin: 30px auto 50px auto;
+  margin: 130px auto 50px auto;
   color: white;
   font-size: 45px;
   font-weight: 400;
