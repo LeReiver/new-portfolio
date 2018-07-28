@@ -1,9 +1,21 @@
+
+
 main {
-  height: 140%;
+  height: 90vh;
 }
+
+
+.main-title {
+  margin: 440px auto 50px auto;
+  padding-top: 100px; 
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+}
+
 p, p.p2 {
   width: 80vw;
-  margin: 0 auto;
+  margin: 200px auto 0 auto;
   font-size: 30px;
   color: white;
   max-width: 600px;
@@ -11,15 +23,9 @@ p, p.p2 {
 }
 
 p.p2 {
-  margin: 30px auto;
+  /* margin: 30px auto; */
 }
 
-.main-title {
-  margin: 180px auto 50px auto;
-  color: white;
-  font-size: 45px;
-  font-weight: 400;
-}
 
 .hello {
   text-align: start;
@@ -61,6 +67,19 @@ p.p2 {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
+
+#home {
+  margin-top: -360px;
+  background-image: url('../../images/hero3.jpg');
+  background-color: rgb(67, 84, 107);
+  background-blend-mode: multiply;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
 
 @media only screen and (max-width: 550px) {
 

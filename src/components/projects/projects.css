@@ -22,17 +22,14 @@ p.p2 {
   font-size: 180%;
 }
 
-.projects {
-  margin-bottom: 50px;
-}
-
 .project-block {
   display: inline-block;
-  margin: 50px auto 150px;
+  margin: 50px auto 150px auto;
 }
 
 .project-title {
-  margin: 130px auto 50px auto;
+  margin: 180px auto 50px auto;
+  padding-top: 60px;
   color: white;
   font-size: 45px;
   font-weight: 400;
@@ -72,6 +69,11 @@ p.p2 {
 .repo-button button {
   float: right;
   margin-right: 100px;
+}
+
+#projects {
+  margin: 50px auto 0 auto;
+  background-color: #0b4c84d9;
 }
 
 #project_img {

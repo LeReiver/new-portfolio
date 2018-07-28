@@ -1,3 +1,9 @@
+#about {
+  background: #0b4c84d9;
+  height: 80vh;
+  margin-top: -220px;
+}
+
 p, p.p2 {
   width: 80vw;
   margin: 0 auto;
@@ -12,7 +18,8 @@ p.p2 {
 }
 
 .about-title {
-  margin: 130px auto 50px auto;
+  margin: 330px auto 50px auto;
+  padding-top: 100px; 
   color: white;
   font-size: 45px;
   font-weight: 400;

@@ -85,7 +85,7 @@ render() {
         </div>
       </div>
 
-      <div classname="project-block">
+      <div className="project-block">
         <div className="project-image">
             <img src={require("../../images/burrito_desktop_iphone.png")} alt="Burrito Masala" title="Click To View"/>
         </div>
@@ -104,7 +104,7 @@ render() {
         </div>
       </div>
 
-      <div classname="project-block">
+      <div className="project-block">
         <div className="project-image">
                 <img src={require("../../images/tip_calculator_desktop.png")} alt="Tip Calculator" title="Click To View" />
         </div>
@@ -123,7 +123,7 @@ render() {
         </div>
       </div>
 
-      <div classname="project-block">
+      <div className="project-block">
         <div className="project-image">
             <img src={require("../../images/buddhabellies_desktop.png")} alt="Buddha Bellies Noodle House" title="Click To View" />
         </div>
