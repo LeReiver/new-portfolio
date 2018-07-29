@@ -5,35 +5,10 @@ export default class About extends Component {
   render() {
     return (
       <section role="complementary" id="about">
-        <h1 className="about-title">Driven by</h1>
-        <figure >
-          <img src={require("../../images/hero4.jpg")}
-          className="left" />
-          <figcaption>
-            <p className="p2">Curiousity</p>
-          </figcaption> 
-        </figure>
-        <figure >
-          <img src={require("../../images/hero4.jpg")}
-          className="right"/>
-          <figcaption>
-            <p className="p2">Technology</p>
-          </figcaption>
-        </figure> 
-        <figure>
-          <img src={require("../../images/hero4.jpg")}
-          className="left"/>
-        <figcaption>
-        <p className="p2 right">Sound</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src={require("../../images/hero4.jpg")}
-          className="right"/>
-          <figcaption>
-            <p className="p2 left">Design</p>
-          </figcaption>
-        </figure>
+        <h1 className="about-title">Driven by Curiosity, Technology, Sound, and Design</h1>
+        <p className="p2 left">Seeking a position where I can assist and contribute to a team of dynamic developers while strengthening my skills utilizing JavaScript, React, Redux, Node, HTML5, &amp; CSS3.
+          </p>
+          <p className="p2 left">Currently Enrolled in Thinkful's Engineering Immersion Program</p>
       </section>
     );
   }

@@ -1,57 +1,54 @@
+/*
 #about {
-  background: #0b4c84d9;
-  /* background-color: rgb(22, 22, 22); */
+   background: #0b4c84d9;
   height: fit-content;
   margin-top: -250px;
-  margin-bottom: 60px;
-}
-
-figure > img {
-  width: 45%;
-  margin: auto;
+  margin-bottom: 60px; 
+  margin-top: -360px;
+  background-image: url('../../images/hero4.jpg');
+  background-color: rgb(67, 84, 107);
+  background-blend-mode: multiply;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 0;
-  float: left;
-} 
-
-figure.left {
-  float: left;
-  clear: right;
 }
+*/
 
-figure.right {
-  float:right;
-  clear: left;
-}
-
-p.p2 {
-  width: 80vw;
-  margin: 0 auto;
-  font-size: 160%!important;
-  color: white;
-  max-width: 600px;
-  text-align: center;
-}
-
-figcaption.p2 .left{
-margin: 100px 300px 0 0;
-z-index: 0;
-}
-
-figcaption.p2 .right{
-  margin: 100px 0 200px 300px;
-  z-index: 0;
+section {
+  height: 90vh;
 }
 
 .about-title {
-  margin: 330px auto 50px auto;
+  margin: 440px auto 50px auto;
   padding-top: 100px; 
   color: white;
   font-size: 45px;
   font-weight: 400;
 }
 
-.hello {
-  text-align: start;
+p, p.p2 {
+  width: 800px;
+  margin: 200px auto 0 auto;
+  font-size: 30px;
+  color: white;
+  max-width: 600px;
+  text-align: justify;
+}
+
+p.p2 {
+  font-size: 10px;
+}
+
+#about {
+  margin-top: -360px;
+  background-image: url('../../images/hero4.jpg');
+  background-color: rgb(67, 84, 107);
+  background-blend-mode: multiply;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
 }
 
 @media only screen and (max-width: 550px) {
@@ -60,7 +57,7 @@ figcaption.p2 .right{
   .about-title {
     width: 300px;
     padding: 0;
-    margin: 20px auto 20px auto;
+    margin: 80px auto 20px auto;
     font-size: 180%;
   }
 
