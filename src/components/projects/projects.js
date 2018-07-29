@@ -47,7 +47,7 @@ render() {
         </div>
       </div>
 
-      <div classname="project-block">
+      <div className="project-block">
           <div className="project-image app">
             <img src={require("../../images/drums.png")} alt="Drums" title="Click To View" />
           </div>

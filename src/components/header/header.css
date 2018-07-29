@@ -19,42 +19,106 @@ header {
   color: white;
 }
 
-/* Navigation ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.topnav {
+/* +++++++++++ Nav ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+nav {
   overflow: hidden;
-  float: right;
-  margin-right: 200px;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
+  background-color: rgb(29, 71, 126);
   transition: 0.8s;
 }
 
-.active {
-  background-color: #4CAF50;
-  color: white;
+nav a {
+  color: #FFF;
 }
 
-.topnav .icon {
+nav a:visited {
+  color: #FFF;
+}
+
+nav .navWide {
   display: none;
-}
-
-.topnav a:hover {
-  color: yellow;
+  margin: 0 auto;
   transition: 0.8s;
 }
 
+nav .navWide .wideDiv {
+  text-align: end;
+}
+
+nav .navWide .wideDiv a {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.8s;
+  margin: 5px 20px 0 0;
+  transition: 0.8s;
+}
+
+nav .navWide .wideDiv a:hover {
+  color: yellow;
+  transition: 0.8;
+  -webkit-transition: 0.8;
+  -moz-transition: 0.8;
+  -ms-transition: 0.8;
+  -o-transition: 0.8;
+}
+
+nav .navNarrow i {
+  float: right;
+  cursor: pointer;
+  color: #FFF;
+  margin-right: 100px;
+}
+
+nav .navNarrow .narrowLinks {
+  display: none;
+  transition: 0.8s;
+}
+
+nav .navNarrow .narrowLinks a {
+  text-decoration: none;
+  display: block;
+  transition: 0.8s;
+  float: right;
+  clear: both;
+  margin: 10px 100px 30px 0;
+  background-color: rgb(29, 71, 126);
+  height: 200%;
+  width: 50%;
+}
 
 
+@media only screen and (min-width: 440px) {
+  nav .navWide {
+    display: block;
+    transition: 0.8s;
+    background-color: rgb(29, 71, 126);
+    padding: 10px;
+    float: right;
+    margin-right: 100px;
+    font-size: 30px;
+  }
+
+  nav .navNarrow {
+    display: none;
+    transition: 0.8s;
+  }
+
+
+nav .narrowLinks {
+  text-decoration: none;
+  display: block;
+  transition: 0.8s;
+  float: right;
+  clear: left;
+  padding: 0.5em 0;
+  background-color: rgb(29, 71, 126);
+  height: 200%;
+}
+
+
+}
 
 /* Media Queries ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 
 @media only screen and (max-width: 600px) {
 
@@ -69,31 +133,4 @@ header {
     text-align: start;
   }
 
-
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
 }

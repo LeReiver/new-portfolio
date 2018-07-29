@@ -1,20 +1,45 @@
 #about {
   background: #0b4c84d9;
-  height: 80vh;
-  margin-top: -220px;
+  /* background-color: rgb(22, 22, 22); */
+  height: fit-content;
+  margin-top: -250px;
+  margin-bottom: 60px;
 }
 
-p, p.p2 {
-  width: 80vw;
-  margin: 0 auto;
-  font-size: 30px;
-  color: white;
-  max-width: 600px;
-  text-align: justify;
+figure > img {
+  width: 45%;
+  margin: auto;
+  z-index: 0;
+  float: left;
+} 
+
+figure.left {
+  float: left;
+  clear: right;
+}
+
+figure.right {
+  float:right;
+  clear: left;
 }
 
 p.p2 {
-  margin: 30px auto;
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 160%!important;
+  color: white;
+  max-width: 600px;
+  text-align: center;
+}
+
+figcaption.p2 .left{
+margin: 100px 300px 0 0;
+z-index: 0;
+}
+
+figcaption.p2 .right{
+  margin: 100px 0 200px 300px;
+  z-index: 0;
 }
 
 .about-title {
