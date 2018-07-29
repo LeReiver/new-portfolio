@@ -1,6 +1,7 @@
 // React responsive navbar from https://codepen.io/danbuda/post/a-react-navbar-component
 
 import React from 'react';
+import { Link }  from 'react-router-dom';
 import '../header/header.css';
 
 
@@ -20,19 +21,19 @@ export default class NavComponent extends React.Component {
       <nav >
         <div className="navWide">
           <div className="wideDiv">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+            <Link to="about">About</Link>
+            <Link to="projects">Projects</Link>
           </div>
         </div>
         <div className="navNarrow">
           <i className="fa fa-bars fa-2x" onClick={this.burgerToggle} />
           <div className="narrowLinks" >
-            <a href="#about" onClick={this.burgerToggle}>
-            About
-            </a>
-            <a href="#projects" onClick={this.burgerToggle}>
+            <Link to="about" onClick={this.burgerToggle}>
+              About
+            </Link>
+            <Link to="projects" onClick={this.burgerToggle}>
               Projects
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
