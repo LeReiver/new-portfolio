@@ -10,7 +10,7 @@ render() {
 
       <div className="project-block">
         <div className="project-image">
-          <img src={require("../../images/mobile-m-collection.png")}alt="CCS"></img>
+          <img src={require("../../images/vinylog_desktop_iPhone.png")}alt="CCS"></img>
         </div>
         <div className="project-desc">
           <h2>Vinylog</h2>

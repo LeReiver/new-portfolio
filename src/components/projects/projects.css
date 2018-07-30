@@ -65,7 +65,6 @@ blockquote {
 
 .project-desc {
   display: inline-block;
-  margin: -100px 10px 0 10px;
 }
 
 .logo-icon {
@@ -171,7 +170,12 @@ blockquote {
 
   .project-image img {
     padding-bottom: 130px;
-    height: 320px;
+    /* height: 320px; */
+  }
+
+  .project-image.ccs img {
+    padding-bottom: 200px;
+    height: 280px;
   }
 
   .project-image.ccs img {
@@ -181,10 +185,34 @@ blockquote {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1280px) {
+
+  .project-image img {
+    padding-bottom: 130px;
+    height: 280px;
+  }
 
   .project-image.ccs img {
-    height: 180px;
+    padding-bottom: 130px;
+    height: 320px;
+  }
+
+  .project-image.app img {
+    padding-bottom: 50px;
+    height: 270px;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+
+  .project-image img {
+    height: 200px;
+  }
+
+  .project-image.ccs img {
+    height: 200px;
   }
 
   .project-image.app img {
