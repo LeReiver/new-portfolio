@@ -34,6 +34,9 @@ p.p2 {
   z-index: 0;
 }
 
+
+
+
 @media only screen and (max-width: 550px) {
 
   p, p.p2,
@@ -42,6 +45,10 @@ p.p2 {
     padding: 0;
     margin: 80px auto 20px auto;
     font-size: 180%;
+  }
+
+  .main-title {
+    padding: 190px 0 50px 0;
   }
 
   p {
@@ -61,3 +68,24 @@ p.p2 {
   }
 
 }
+
+@media only screen and (max-width: 600px) {
+  .main-title {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .main-title {
+    margin-top: 420px;
+    padding: 50px 0;
+    font-size: 38px;
+    line-height: 110%;
+  }
+
+  p.p2.left{
+    margin: -50px 0 50px 50px;
+  }
+
+}
+

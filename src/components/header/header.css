@@ -21,7 +21,7 @@ header {
 
 /* +++++++++++ Nav ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 nav {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: rgb(29, 71, 126);
   transition: 0.8s;
 }
@@ -102,18 +102,16 @@ nav .navNarrow .narrowLinks a {
     transition: 0.8s;
   }
 
-
-nav .narrowLinks {
-  text-decoration: none;
-  display: block;
-  transition: 0.8s;
-  float: right;
-  clear: left;
-  padding: 0.5em 0;
-  background-color: rgb(29, 71, 126);
-  height: 200%;
-}
-
+  nav .narrowLinks {
+    text-decoration: none;
+    display: block;
+    transition: 0.8s;
+    float: right;
+    clear: left;
+    padding: 0.5em 0;
+    background-color: rgb(29, 71, 126);
+    height: 200%;
+  }
 
 }
 
@@ -122,15 +120,41 @@ nav .narrowLinks {
 
 @media only screen and (max-width: 600px) {
 
+
   header {
-    height: 35px;
+    height: 45px;
     margin: 0;
   }
 
   .header-title {
-    font-size: 25px;
+    font-size: 35px;
     margin-left: -30px;
     text-align: start;
+    padding-bottom: 15px;
+  }
+
+  nav .navWide {
+    padding: 0;
+    font-size: 30px;
+  }
+
+  nav .navNarrow i {
+    margin-right: 60px;
+    margin-top: 7px;
+  }
+
+  nav .narrowLinks {
+    margin-top: -7px;
+    margin-right: -25px;
+    padding: 20px;
+  }
+
+  nav .navNarrow .narrowLinks a {
+    width: 100%;
+    margin-right: 42px;
+    font-size: 28px;
+    margin-top: -45px;
+    padding: 5%;
   }
 
 }

@@ -7,7 +7,8 @@ export default class Main extends Component {
     return (
       <div id="home">
         <main>
-          <h1 className="main-title">Full Stack Developer</h1>
+          <h1 className="main-title">Hello,<br/>I am a Full Stack Web Developer.</h1>
+          <p className="p2 left">Creating digital solutions is my passion.</p>
           <Link to="projects"><button className="projects-button">View Projects</button></Link>
         </main>
       </div>

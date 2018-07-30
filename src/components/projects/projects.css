@@ -28,7 +28,7 @@ p.p2 {
 }
 
 .project-title {
-  margin: 180px auto 50px auto;
+  margin: 150px auto 50px auto;
   padding-top: 60px;
   color: white;
   font-size: 45px;
@@ -94,20 +94,23 @@ p.p2 {
 
 @media only screen and (max-width: 600px) {
 
+.project-block {
+  margin: -80px auto 150px auto;
+}
+
   .project-image img {
-    height: 300px;
+    height: 220px;
     padding-top: 10px;
     /* margin: -8em 0 -5em -100px; */
   }
 
   .project-image.app img {
-      height: 230px;
-      /* margin-left: -70px; */
+      height: 190px;
+      margin-left: 0;
   }
 
   p, p.p2 {
-    width: 100vw;
-    margin: 5%;
+    margin: 0;
     text-align: start;
   }
 
