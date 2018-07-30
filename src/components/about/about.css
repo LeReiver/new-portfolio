@@ -115,8 +115,8 @@ section {
 @media only screen and (min-width: 400px) {
   .about-title {
     margin-top: 400px;
-    padding: 30px 5px 20px 5px;
-    font-size: 35px;
+    padding: 30px 5px 50px 5px;
+    font-size: 40px;
     line-height: 110%;
   }
 
