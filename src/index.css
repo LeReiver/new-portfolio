@@ -39,7 +39,7 @@ button {
 }
 
 button:hover {
-  background-color:  rgb(29, 71, 126);
+  background-color: rgb(32, 46, 68);
   color: yellow;
   border: thin yellow solid;
   transition: 0.8s;
