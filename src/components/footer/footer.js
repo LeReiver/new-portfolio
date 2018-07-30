@@ -7,7 +7,7 @@ export default class Footer extends Component {
       <footer>
         <h1 className="footer-title">Contact Me</h1>
         <div className="footer-item">
-          <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/mreiver/" target="_blank" rel="noopener noreferrer"><i id="footer-linkedIn" className="fa fa-linkedin-square" aria-hidden="true" 
+          <a href="https://www.linkedin.com/in/michael-le-reiver/" target="_blank" rel="noopener noreferrer"><i id="footer-linkedIn" className="fa fa-linkedin-square" aria-hidden="true" 
           alt="To my LinkedIn" /></a>
         </div>
         <div className="footer-item">
