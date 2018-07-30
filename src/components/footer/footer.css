@@ -39,6 +39,10 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .footer-item {
-    margin-left: 22px;
+    margin-left: 5px;
+  }
+
+  .footer-title {
+    margin-left: -30px;
   }
 }
