@@ -24,7 +24,7 @@ p.p2 {
 }
 
 p.p2.desc {
-  padding: 10px 0 35px 30px;
+  padding: 10px 30px 35px 0;
   font-size: 25px;
 }
 
@@ -157,10 +157,12 @@ blockquote {
 
   .project-button button {
     margin: 0;
+    width: 45%;
   }
 
   .repo-button button {
     margin: 0 20px 0 0;
+    width: 45%;
   }
   
 }
@@ -181,9 +183,24 @@ blockquote {
 
 @media only screen and (max-width: 400px) {
 
-  .project-image.ccs img, .project-image.app img {
+  .project-image.ccs img {
     height: 180px;
   }
+
+  .project-image.app img {
+    height: 170px;
+    margin-left: -10px;
+  }
+
+  p.p2.stack {
+    margin-left: 0;
+    margin-bottom: 0px;
+  }
+
+  blockquote {
+    margin-left: 20px;
+  }
+  
 
 }
 
