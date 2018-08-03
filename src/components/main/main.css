@@ -1,5 +1,6 @@
 main {
   height: 90vh;
+  padding-bottom: 50px;
 }
 
 .main-title {
@@ -38,6 +39,9 @@ p.p2 {
 
 
 @media only screen and (max-width: 550px) {
+  main {
+  padding-bottom: 50px;
+  }
 
   p, p.p2,
   .main-title {
