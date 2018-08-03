@@ -20,8 +20,8 @@ p, p.p2 {
   text-align: justify;
 }
 
-p.p2 {
-  font-size: 10px;
+p.p2.heading {
+  text-align: center;
 }
 
 #home {
@@ -34,8 +34,6 @@ p.p2 {
   background-size: cover;
   z-index: 0;
 }
-
-
 
 
 @media only screen and (max-width: 550px) {
