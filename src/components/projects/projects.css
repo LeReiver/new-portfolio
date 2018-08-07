@@ -27,15 +27,15 @@ p.p2 {
 
 p.p2.desc {
   padding: 10px 30px 35px 0;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 p.p2.stack {
   color: rgb(32, 46, 68);
   padding: 0 20px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: -150px;
-  margin-left: 30px;
+  margin-left: -20px;
   font-weight: 600;
 }
 
@@ -45,8 +45,10 @@ p.p2.stack li {
 
 blockquote {
   margin-top: 5px;
+  margin-left: 0;
   color: white;
   font-weight: 300;
+  font-size: 18px;
 }
 
 .project-block {
@@ -228,13 +230,13 @@ blockquote {
   }
 
   p.p2.stack {
-    margin-left: 0;
+    /* margin-left: 0; */
     margin-bottom: 0px;
   }
 
-  blockquote {
+  /* blockquote {
     margin-left: 20px;
-  }
+  } */
   
 
 }
