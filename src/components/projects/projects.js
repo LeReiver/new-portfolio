@@ -14,19 +14,29 @@ render() {
         </div>
         <div className="project-desc">
           <h2>Vinylog</h2>
-          <p className="p2 desc">Vinylog is web application that allows users to create a private and secure account to catalog their vinyl collection. By searching for an album title or artists name, users can retrieve a list of album release data including title, album image, genre, and release year. Users will be able to save results to their collection, view their collection, and remove them as well.</p>
-          <p className="p2 stack">
-          Stack:
-            <blockquote>JavaScript, React/Redux, Node.js, MongoDB, JWT Auth, Mocha/Chai, HTML5, CSS3</blockquote>
+          <p className="project-p desc">
+          Vinylog is web application that allows users to create a private and secure account to catalog their vinyl collection. By searching for an album title or artists name, users can retrieve a list of album release data including title, album image, genre, and release year. Users will be able to save results to their collection, view their collection, and remove them as well.
           </p>
-            <div className="project-button">
-                <a href="https://vinylog.herokuapp.com/" target="_blank">
-                  <button>View Project</button></a>
-            </div>
-            <div className="repo-button">
-                <a href="https://github.com/LeReiver/mike_vinylog_client" target="_blank">
-                <button>View Repo</button></a>
-            </div>
+          <ul>
+            <li>JavaScript</li>
+            <li>React/Redux</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+          <ul>
+            <li>Node.js</li>
+            <li>JWT Auth</li>
+            <li>MongoDB</li>
+            <li>Mocha/Chai</li>
+          </ul>
+          <div className="project-button">
+              <a href="https://vinylog.herokuapp.com/" target="_blank">
+                <button>View Project</button></a>
+          </div>
+          <div className="repo-button">
+              <a href="https://github.com/LeReiver/mike_vinylog_client" target="_blank">
+              <button>View Repo</button></a>
+          </div>
         </div>
       </div> 
 
@@ -36,12 +46,18 @@ render() {
         </div>
         <div className="project-desc">
           <h2>Coordinated Consulting Services</h2>
-          <p className="p2 desc">A private and secure web application for a consulting firm that
+          <p className="project-p desc">A private and secure web application for a consulting firm that
               requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
-          <p className="p2 stack">
-          Stack:
-            <blockquote>PHP, JavaScript, MySQL, HTML5, CSS3</blockquote>
-          </p>
+          <ul>
+            <li>PHP</li>
+            <li>jQuery</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+          <ul>
+            <li>MySQL</li>
+            <li>phpMyAdmin</li>
+          </ul>
         </div>
       </div>
 
@@ -51,11 +67,19 @@ render() {
           </div>
           <div className="project-desc">
             <h2>Drums</h2>
-            <p className="p2 desc">An Android app that I built for fun. It is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums</p>
-          <p className="p2 stack">
-          Stack:
-            <blockquote>Java, XML, CSS3, Gradle, Android</blockquote>
-          </p>
+            <p className="project-p desc">An Android app that I built for fun. It is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums</p>
+          <ul>
+            <li>JavaScript</li>
+            <li>React/Redux</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+          <ul>
+            <li>Node.js</li>
+            <li>JWT Auth</li>
+            <li>MongoDB</li>
+            <li>Mocha/Chai</li>
+          </ul>
             <div className="project-button">
                 <a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank" rel="noopener noreferrer">
                   <button>View Project</button></a>

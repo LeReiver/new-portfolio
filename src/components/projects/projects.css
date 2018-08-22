@@ -5,34 +5,35 @@ h1 {
 h2 {
   color: #141414;
   font-size: 30px;
+  margin-top: 60px;
 }
 
-p, p.p2 {
-  width: 80vw;
-  margin: 0 auto;
-  font-size: 25px;
+p, p.project-p {
+  width: 110%;
+  margin: -15px auto 20px;
+  font-size: 20px;
   font-weight: 300;
-  color: white;
-  max-width: 600px;
+  color: rgb(32, 46, 68)!important;
   text-align: justify;
 }
 
 p.p2 {
-  margin: 0 auto 130px auto;
+  /* margin: 0 auto 130px auto; */
   font-size: 180%;
   
 }
 
 p.p2.desc {
   padding: 10px 30px 35px 0;
-  font-size: 18px;
+  font-size: 20px;
+  color: rgb(32, 46, 68);
 }
 
 p.p2.stack {
   color: rgb(32, 46, 68);
   padding: 0 20px;
   font-size: 20px;
-  margin-top: -150px;
+  /* margin-top: -150px; */
   margin-left: -20px;
   font-weight: 600;
 }
@@ -41,35 +42,52 @@ p.p2.stack li {
   list-style-type: circle;
 }
 
-blockquote {
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  display: inline-block;
   margin-top: 5px;
-  margin-left: 0;
+  margin-left: 5px;
   color: white;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 15px;
+  text-align: start;
+  list-style-type: none;
+  background-color: rgb(32, 46, 68);
+  padding: 1%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .project-block {
   display: inline-block;
   margin-bottom: 180px;
+  margin-top: 0;
 }
 
 .project-title {
   margin: 50px auto 50px auto;
-  padding-top: 30px;
-  color: white;
+  padding-top: 50px;
+  color: rgb(32, 46, 68);
   font-size: 40px;
   font-weight: 400;
 }
 
 .project-image {
-  display: inline-block;
-  margin-left: -15px;
+  display: block;
+  float: left;
   height:  280px;
 }
 
 .project-desc {
   display: inline-block;
+  width: 40%;
 }
 
 .logo-icon {
@@ -86,7 +104,6 @@ blockquote {
   margin-bottom: -110px;
 }
 
-
 .project-image.ccs img {
   height: 450px;
   margin-top: 60px;
@@ -98,23 +115,27 @@ blockquote {
   margin-left: 10px;
 }
 
+button {
+  color: rgb(32, 46, 68); 
+  border: rgb(32, 46, 68) solid thin;
+}
+
 .project-button button{
   float: left;
   margin-left: 100px;
-  margin-top: -100px;
-  margin-bottom: -100px;
+  margin-top: 20px;
+  /* margin-bottom: -100px; */
 }
 
 .repo-button button {
-  float: right;
-  margin-right: 100px;
-  margin-top: -100px;
-  margin-bottom: -100px;
+  /* margin-right: 100px; */
+   margin-top: 20px;
+  /*margin-bottom: -100px; */
 }
 
 #projects {
   margin: 50px auto 0 auto;
-  background-color: #385F71;
+  background-color: rgba(56, 95, 113, 0.24);
 }
 
 #project_img {
@@ -193,18 +214,18 @@ blockquote {
 @media only screen and (max-width: 1280px) {
 
   .project-image img {
-    padding-bottom: 130px;
-    height: 280px;
+    /* padding-bottom: 130px; */
+    /* height: 280px; */
   }
 
   .project-image.ccs img {
     padding-bottom: 130px;
-    height: 320px;
+    height: 450px;
   }
 
   .project-image.app img {
     padding-bottom: 50px;
-    height: 270px;
+    height: 330px;
   }
 
 }

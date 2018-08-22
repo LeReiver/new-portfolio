@@ -15,7 +15,7 @@ h2 {
   font-family: 'Assistant', sans-serif;
 }
 
-p {
+p, blockquote, li {
   font-family: 'Assistant', sans-serif;
 }
 

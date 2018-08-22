@@ -1,6 +1,5 @@
 main {
   height: 90vh;
-  /* padding: 100px 0; */
 }
 
 .main-title {
@@ -15,13 +14,18 @@ p, p.p2 {
   width: 800px;
   margin: 200px auto 0 auto;
   font-size: 30px;
-  color: white;
+  color: white!important;
   max-width: 600px;
   text-align: justify;
 }
 
 p.p2.heading {
   text-align: center;
+}
+
+.projects-button {
+  color: yellow;
+  border: thin white solid;
 }
 
 #home {
@@ -34,7 +38,6 @@ p.p2.heading {
   background-size: cover;
   z-index: 0;
 }
-
 
 @media only screen and (max-width: 550px) {
   main {
