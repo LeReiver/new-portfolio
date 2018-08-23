@@ -40,7 +40,7 @@ render() {
         </div>
       </div> 
 
-      <div className="project-block">
+      <div className="project-block ccs">
         <div className="project-image ccs">
           <img src={require("../../images/ccs_desktop_md.png")}alt="CCS"></img>
         </div>
@@ -61,7 +61,7 @@ render() {
         </div>
       </div>
 
-      <div className="project-block">
+      <div className="project-block app">
           <div className="project-image app">
             <img src={require("../../images/drums.png")} alt="Drums" title="Click To View" />
           </div>
@@ -69,16 +69,13 @@ render() {
             <h2>Drums</h2>
             <p className="project-p desc">An Android app that I built for fun. It is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums</p>
           <ul>
-            <li>JavaScript</li>
-            <li>React/Redux</li>
-            <li>HTML5</li>
+            <li>Java</li>
+            <li>XML</li>
             <li>CSS3</li>
           </ul>
           <ul>
-            <li>Node.js</li>
-            <li>JWT Auth</li>
-            <li>MongoDB</li>
-            <li>Mocha/Chai</li>
+            <li>Android SDK</li>
+            <li>Gradle</li>
           </ul>
             <div className="project-button">
                 <a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank" rel="noopener noreferrer">

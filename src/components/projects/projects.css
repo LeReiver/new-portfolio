@@ -9,7 +9,7 @@ h2 {
 }
 
 p, p.project-p {
-  width: 110%;
+  width: 100%;
   margin: -15px auto 20px;
   font-size: 20px;
   font-weight: 300;
@@ -38,8 +38,9 @@ p.p2.stack {
   font-weight: 600;
 }
 
-p.p2.stack li {
-  list-style-type: circle;
+.projects-button {
+  color: yellow;
+  border: thin white solid;
 }
 
 ul {
@@ -71,8 +72,16 @@ ul > li {
   margin-top: 0;
 }
 
+.project-block .ccs {
+  margin-bottom: 140px;
+}
+
+.project-block .app {
+  margin-bottom: 140px;
+}
+
 .project-title {
-  margin: 50px auto 50px auto;
+  margin: 50px auto 0;
   padding-top: 50px;
   color: rgb(32, 46, 68);
   font-size: 40px;
@@ -113,24 +122,23 @@ ul > li {
 .project-image.app img {
   height: 340px;
   margin-left: 10px;
+  margin-right: 0;
 }
 
 button {
   color: rgb(32, 46, 68); 
   border: rgb(32, 46, 68) solid thin;
+  font-weight: bold;
 }
 
 .project-button button{
   float: left;
-  margin-left: 100px;
+  margin-left: 70px;
   margin-top: 20px;
-  /* margin-bottom: -100px; */
 }
 
 .repo-button button {
-  /* margin-right: 100px; */
    margin-top: 20px;
-  /*margin-bottom: -100px; */
 }
 
 #projects {
@@ -196,38 +204,63 @@ button {
 
   .project-image img {
     padding-bottom: 130px;
-    /* height: 320px; */
+    height: 520px;
+    margin-left: 30px;
   }
 
   .project-image.ccs img {
     padding-bottom: 200px;
-    height: 280px;
+    height: 520px;
   }
 
-  .project-image.ccs img {
+  .project-image.app img {
     padding-bottom: 200px;
-    height: 280px;
+    height: 400px;
+    margin-left: 30px;
   }
 
 }
 
-@media only screen and (max-width: 1280px) {
+
+
+@media only screen and (max-width: 1280) {
+  .project-desc {
+    display: inline-block;
+    width: 30%;
+  }
 
   .project-image img {
-    /* padding-bottom: 130px; */
-    /* height: 280px; */
+    padding-bottom: 130px;
+    height: 380;
+    margin-left: 30px;
   }
 
   .project-image.ccs img {
-    padding-bottom: 130px;
-    height: 450px;
+    padding-bottom: 200px;
+    height: 380;
   }
 
   .project-image.app img {
-    padding-bottom: 50px;
-    height: 330px;
+    padding-bottom: 200px;
+    height: 320;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 768) {
+
+  .project-image img {
+    height: 500px;
   }
 
+  .project-image.ccs img {
+    height: 500px;
+  }
+
+  .project-image.app img {
+    height: 450px;
+    margin-left: 30px;
+  }
 }
 
 @media only screen and (max-width: 400px) {

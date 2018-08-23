@@ -32,11 +32,11 @@ button {
   height: 50px;
   font-weight: 200;
   transition: 0.8s;
-  border-radius: 3px!important;
-  -webkit-border-radius: 3px!important;
-  -moz-border-radius: 3px!important;
-  -ms-border-radius: 3px!important;
-  -o-border-radius: 3px!important;
+  border-radius: 5px!important;
+  -webkit-border-radius: 5px!important;
+  -moz-border-radius: 5px!important;
+  -ms-border-radius: 5px!important;
+  -o-border-radius: 5px!important;
 }
 
 button:hover {
