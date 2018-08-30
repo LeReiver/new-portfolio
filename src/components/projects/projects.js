@@ -12,7 +12,7 @@ render() {
         <div className="project-image">
           <img src={require("../../images/vinylog_desktop_iPhone.png")}alt="CCS"></img>
         </div>
-        <div className="project-desc">
+        <div className="project-desc desktop-mobile">
           <h2>Vinylog</h2>
           <p className="project-p desc">
           Vinylog is web application that allows users to create a private and secure account to catalog their vinyl collection. By searching for an album title or artists name, users can retrieve a list of album release data including title, album image, genre, and release year. Users will be able to save results to their collection, view their collection, and remove them as well.

@@ -9,7 +9,7 @@ h2 {
 }
 
 p, p.project-p {
-  width: 100%;
+  width: 80%;
   margin: -15px auto 20px;
   font-size: 20px;
   font-weight: 300;
@@ -96,7 +96,7 @@ ul > li {
 
 .project-desc {
   display: inline-block;
-  width: 40%;
+  /* width: 40%; */
 }
 
 .logo-icon {
@@ -114,7 +114,7 @@ ul > li {
 }
 
 .project-image.ccs img {
-  height: 450px;
+  /* height: 450px; */
   margin-top: 60px;
   margin-bottom: -200px;
 }
@@ -203,24 +203,33 @@ button {
 @media only screen and (max-width: 1024px) {
 
   .project-image img {
-    padding-bottom: 130px;
-    height: 520px;
-    margin-left: 30px;
+    /* padding-bottom: 130px; */
+    height: 390px;
+    /* margin-left: 200px;
+    margin-top: 65px; */
+    margin: 65px auto 65px 200px;
   }
 
   .project-image.ccs img {
     padding-bottom: 200px;
-    height: 520px;
+    /* height: 520px; */
   }
 
   .project-image.app img {
     padding-bottom: 200px;
-    height: 500px;
-    margin-left: 75px;
+    /* height: 500px;*/
+    margin-left: 200px; 
     margin-bottom: 75px;
-    margin-top: -25px;
+    /* margin-top: -25px; */
   }
 
+  .project-desc {
+    width: 90%
+  }
+
+  .project-desc.desktop-mobile {
+    margin-top: 150px;
+  }
 
   .project-desc .app {
     margin-top: 160;
@@ -228,15 +237,7 @@ button {
 
 }
 
-
-
-@media only screen and (max-width: 1280) {
-  .project-desc {
-    display: inline-block;
-    width: 30%;
-  }
-
-  .project-image img {
+  /* .project-image img {
     padding-bottom: 130px;
     height: 380;
     margin-left: 30px;
@@ -251,8 +252,8 @@ button {
     padding-bottom: 200px;
     height: 320;
     margin-left: 30px;
-  }
-}
+  } */
+/* }  */
 
 @media only screen and (max-width: 768) {
 
@@ -290,5 +291,11 @@ button {
     margin-bottom: 0px;
   }
 
+}
+
+@media only screen and (max-width: 800) {
+  .project-desc {
+    width: 100%;
+  }
 }
 
