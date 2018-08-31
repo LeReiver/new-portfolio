@@ -72,7 +72,7 @@ render() {
         </div>
         <div className="project-desc app">
           <h2 className="app-h2">Drums</h2>
-          <p className="project-p desc">An Android app that I built for fun. It is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums</p>
+          <p className="project-p desc">An Android app that is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums</p>
         <ul>
           <li>Java</li>
           <li>XML</li>
