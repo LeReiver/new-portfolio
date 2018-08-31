@@ -17,25 +17,29 @@ render() {
           <p className="project-p desc">
           Vinylog is web application that allows users to create a private and secure account to catalog their vinyl collection. By searching for an album title or artists name, users can retrieve a list of album release data including title, album image, genre, and release year. Users will be able to save results to their collection, view their collection, and remove them as well.
           </p>
-          <ul>
-            <li>JavaScript</li>
-            <li>React/Redux</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-          </ul>
-          <ul>
-            <li>Node.js</li>
-            <li>JWT Auth</li>
-            <li>MongoDB</li>
-            <li>Mocha/Chai</li>
-          </ul>
-          <div className="project-button">
-              <a href="https://vinylog.herokuapp.com/" target="_blank">
-                <button>View Project</button></a>
+          <div className="stack-list">
+            <ul>
+              <li>JavaScript</li>
+              <li>React/Redux</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+            <ul>
+              <li>Node.js</li>
+              <li>JWT Auth</li>
+              <li>MongoDB</li>
+              <li>Mocha/Chai</li>
+            </ul>
           </div>
-          <div className="repo-button">
-              <a href="https://github.com/LeReiver/mike_vinylog_client" target="_blank">
-              <button>View Repo</button></a>
+          <div className="project-button-group">
+            <div className="project-button">
+                <a href="https://vinylog.herokuapp.com/" target="_blank">
+                  <button>View Project</button></a>
+            </div>
+            <div className="repo-button">
+                <a href="https://github.com/LeReiver/mike_vinylog_client" target="_blank">
+                <button>View Repo</button></a>
+            </div>
           </div>
         </div>
       </div> 
@@ -44,7 +48,7 @@ render() {
         <div className="project-image ccs">
           <img src={require("../../images/ccs_desktop_md.png")}alt="CCS"></img>
         </div>
-        <div className="project-desc">
+        <div className="project-desc ccs">
           <h2>Coordinated Consulting Services</h2>
           <p className="project-p desc">A private and secure web application for a consulting firm that
               requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
@@ -53,8 +57,8 @@ render() {
             <li>jQuery</li>
             <li>HTML5</li>
             <li>CSS3</li>
-          </ul>
-          <ul>
+          {/* </ul>
+          <ul> */}
             <li>MySQL</li>
             <li>phpMyAdmin</li>
           </ul>
@@ -72,8 +76,8 @@ render() {
             <li>Java</li>
             <li>XML</li>
             <li>CSS3</li>
-          </ul>
-          <ul>
+          {/* </ul>
+          <ul> */}
             <li>Android SDK</li>
             <li>Gradle</li>
           </ul>

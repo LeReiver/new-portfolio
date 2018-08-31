@@ -43,9 +43,19 @@ p.p2.stack {
   border: thin white solid;
 }
 
+.project-button-group {
+  /* display: block; */
+}
+
+/* .stack-list {
+  float: left;
+  margin-left: 80px;
+} */
+
 ul {
   margin: 0;
   padding: 0;
+  /* display: inline-block; */
 }
 
 ul > li {
@@ -55,10 +65,10 @@ ul > li {
   color: white;
   font-weight: 300;
   font-size: 15px;
-  text-align: start;
+  text-align: center;
   list-style-type: none;
   background-color: rgb(32, 46, 68);
-  padding: 1%;
+  padding: 10px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -72,12 +82,13 @@ ul > li {
   margin-top: 0;
 }
 
-.project-block .ccs {
-  margin-bottom: 140px;
+.project-block.ccs {
+  margin-bottom: 130px;
 }
 
-.project-block .app {
-  margin-bottom: 140px;
+.project-block.app {
+  margin-bottom: 210px;
+  margin-top: 210px;
 }
 
 .project-title {
@@ -99,6 +110,18 @@ ul > li {
   /* width: 40%; */
 }
 
+.project-desc.desktop-mobile {
+  margin-top: 20px;
+}
+
+.project-desc.ccs {
+  margin-top: 30px;
+}
+
+.project-desc.app {
+  margin-top: 24px;
+}
+
 .logo-icon {
   height: 350px;
   width:350px;
@@ -114,7 +137,6 @@ ul > li {
 }
 
 .project-image.ccs img {
-  /* height: 450px; */
   margin-top: 60px;
   margin-bottom: -200px;
 }
@@ -133,12 +155,13 @@ button {
 
 .project-button button{
   float: left;
-  margin-left: 70px;
+  margin-left: 120px;
   margin-top: 20px;
 }
 
 .repo-button button {
    margin-top: 20px;
+   margin-left: -30px;
 }
 
 #projects {
