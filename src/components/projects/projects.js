@@ -81,6 +81,7 @@ render() {
             <li>Android SDK</li>
             <li>Gradle</li>
           </ul>
+          <div className="project-button-group">
             <div className="project-button">
                 <a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank" rel="noopener noreferrer">
                   <button>View Project</button></a>
@@ -90,6 +91,7 @@ render() {
                   <button>View Repo</button></a>
             </div>
           </div>
+        </div>
       </div>
 
     </div>

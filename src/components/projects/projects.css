@@ -18,7 +18,6 @@ p, p.project-p {
 }
 
 p.p2 {
-  /* margin: 0 auto 130px auto; */
   font-size: 180%;
   
 }
@@ -43,10 +42,6 @@ p.p2.stack {
   border: thin white solid;
 }
 
-.project-button-group {
-  /* display: block; */
-}
-
 /* .stack-list {
   float: left;
   margin-left: 80px;
@@ -55,7 +50,6 @@ p.p2.stack {
 ul {
   margin: 0;
   padding: 0;
-  /* display: inline-block; */
 }
 
 ul > li {
@@ -107,7 +101,6 @@ ul > li {
 
 .project-desc {
   display: inline-block;
-  /* width: 40%; */
 }
 
 .project-desc.desktop-mobile {
@@ -202,14 +195,13 @@ button {
   }
 
   .project-image.app img {
-      height: 190px;
-      margin-left: 0;
+    height: 190px;
+    margin-left: 0;
   }
 
   p, p.p2 {
     text-align: start;
   }
-
 
   .project-button button {
     margin: 0;
@@ -220,7 +212,7 @@ button {
     margin: 0 20px 0 0;
     width: 45%;
   }
-  
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -270,7 +262,7 @@ button {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
 
   .project-image.desktop-mobile img {
     height: 500px;
@@ -301,24 +293,128 @@ button {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
+  .project-block {
+    margin: -80px auto 70px auto;
+  }
 
-  .project-image img {
-    height: 200px;
+  .project-image.desktop-mobile img {
+    height: 370px;
+    margin-top: 120px;
+  }
+
+  .project-desc.desktop-mobile {
+    margin-top: 180px;
+}
+
+  .project-image.ccs img {
+    margin-top: 80px;
+    height: 370px;
+  }
+
+  .project-desc.ccs {
+    margin-top: 140px;
+  }
+
+  .project-image.app img {
+    height: 320px;
+    margin-left: 20px;
+  }
+
+  .project-desc.app {
+    margin-top: 0;
+}
+
+  p, p.p2 {
+    text-align: start;
+  }
+
+  .project-button-group {
+    margin-top: 20px;
+  }
+
+  .project-button button {
+    margin: 0;
+    width: 45%;
+  }
+
+  .repo-button button {
+    margin: 0 20px 0 0;
+    width: 45%;
+  }
+
+}
+
+@media only screen and (max-width: 460px) {
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .project-title {
+    margin: -30px auto 0;
+  }
+
+  .project-image.desktop-mobile img {
+    height: 250px;
+    margin: 100px 0 20px 20px;
+  }
+
+  .project-desc.desktop-mobile {
+    margin-top: 50px;
   }
 
   .project-image.ccs img {
     height: 200px;
+    margin-top: 50px;
+  }
+
+  .project-block.app {
+    margin-top: 120px;
+    margin-bottom: 0;
   }
 
   .project-image.app img {
-    height: 170px;
-    margin-left: -10px;
+    height: 200px;
+    margin: -320px 0 -60px 15px;
+    padding-bottom: 50px;
+  }
+
+  .project-desc {
+    width: 99%;
+  }
+
+  p.project-p.desc {
+    width: 97%;
+    text-align: start;
+    margin: 10px;
+  }
+
+  .project-desc.ccs {
+    margin-top: -60px;
   }
 
   p.p2.stack {
     margin-bottom: 0px;
+  }
+
+  .project-button-group {
+    margin: 10px;
+  }
+
+  .project-button button {
+    margin: 0;
+    width: 45%;
+  }
+
+  .repo-button button {
+    margin: 0 -30px 0;
+    width: 45%;
+  }
+
+  .app-h2 {
+    margin-top: -600px;
   }
 
 }
