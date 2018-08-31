@@ -226,24 +226,22 @@ button {
 @media only screen and (max-width: 1024px) {
 
   .project-image img {
-    /* padding-bottom: 130px; */
-    height: 390px;
-    /* margin-left: 200px;
-    margin-top: 65px; */
+    height: 470px;
     margin: 65px auto 65px 200px;
   }
 
   .project-image.ccs img {
+    margin-top: -70px;
     padding-bottom: 200px;
-    /* height: 520px; */
+    height: 470px;
   }
 
   .project-image.app img {
     padding-bottom: 200px;
-    /* height: 500px;*/
+    height: 370px;
     margin-left: 200px; 
     margin-bottom: 75px;
-    /* margin-top: -25px; */
+    margin-top: -200px;
   }
 
   .project-desc {
@@ -251,47 +249,56 @@ button {
   }
 
   .project-desc.desktop-mobile {
-    margin-top: 150px;
+    margin-top: 210px;
   }
 
-  .project-desc .app {
-    margin-top: 160;
+  .project-desc.ccs {
+    margin-top: 80px;
+  }
+
+  .project-desc.app {
+    margin-top: -140;
+  }
+
+  .app-h2 {
+    margin-top: -110px;
+  }
+
+  .project-button button {
+    margin-left: 220px;
   }
 
 }
 
-  /* .project-image img {
-    padding-bottom: 130px;
-    height: 380;
-    margin-left: 30px;
-  }
+@media only screen and (max-width: 768px) {
 
-  .project-image.ccs img {
-    padding-bottom: 200px;
-    height: 380;
-  }
-
-  .project-image.app img {
-    padding-bottom: 200px;
-    height: 320;
-    margin-left: 30px;
-  } */
-/* }  */
-
-@media only screen and (max-width: 768) {
-
-  .project-image img {
+  .project-image.desktop-mobile img {
     height: 500px;
+    margin-left: 55px;
   }
 
   .project-image.ccs img {
     height: 500px;
+    margin-left: 55px;
   }
 
   .project-image.app img {
-    height: 450px;
-    margin-left: 30px;
+    height: 370px;
+    margin-left: 60px;
   }
+
+  .project-desc.desktop-mobile {
+    margin-top: 250px;
+  }
+
+  .project-desc.ccs {
+    margin-top: 120px;
+  }
+
+  .project-button button {
+    margin-left: 150px;
+  }
+
 }
 
 @media only screen and (max-width: 400px) {
