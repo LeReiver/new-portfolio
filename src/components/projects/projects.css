@@ -404,7 +404,11 @@ button {
 
   .project-desc.ccs {
     margin-top: -50px;
-}
+  }
+
+  .app-h2 {
+    margin-top: -230px;
+  }
 
 }
 
