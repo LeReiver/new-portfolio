@@ -37,16 +37,6 @@ p.p2.stack {
   font-weight: 600;
 }
 
-.projects-button {
-  color: yellow;
-  border: thin white solid;
-}
-
-/* .stack-list {
-  float: left;
-  margin-left: 80px;
-} */
-
 ul {
   margin: 0;
   padding: 0;
@@ -68,6 +58,22 @@ ul > li {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+hr {
+  margin: 30px auto 0;
+  width: 80%;
+}
+
+button {
+  color: rgb(32, 46, 68); 
+  border: rgb(32, 46, 68) solid thin;
+  font-weight: bold;
+}
+
+.projects-button {
+  color: yellow;
+  border: thin white solid;
 }
 
 .project-block {
@@ -140,12 +146,6 @@ ul > li {
   margin-right: 0;
 }
 
-button {
-  color: rgb(32, 46, 68); 
-  border: rgb(32, 46, 68) solid thin;
-  font-weight: bold;
-}
-
 .project-button button{
   float: left;
   margin-left: 120px;
@@ -171,49 +171,6 @@ button {
   clear: right;
 }
 
-#pipe {
-  color: yellow;
-  font-size: 150%;
-  margin-top: 2px;
-  font-weight: 100;
-}
-
-@media only screen and (max-width: 600px) {
-
-  .project-block {
-    margin: -80px auto 70px auto;
-  }
-
-  .project-image img {
-    height: 220px;
-    padding-top: 10px;
-  }
-
-  .project-image.ccs img {
-    padding-bottom: 200px;
-    height: 280px;
-  }
-
-  .project-image.app img {
-    height: 190px;
-    margin-left: 0;
-  }
-
-  p, p.p2 {
-    text-align: start;
-  }
-
-  .project-button button {
-    margin: 0;
-    width: 45%;
-  }
-
-  .repo-button button {
-    margin: 0 20px 0 0;
-    width: 45%;
-  }
-
-}
 
 @media only screen and (max-width: 1024px) {
 
@@ -295,7 +252,7 @@ button {
 
 @media only screen and (max-width: 600px) {
 
-  .project-block {
+  .project-block, hr {
     margin: -80px auto 70px auto;
   }
 
@@ -419,9 +376,38 @@ button {
 
 }
 
-@media only screen and (max-width: 800) {
-  .project-desc {
-    width: 100%;
+@media only screen and (max-width: 360px) {
+
+  .project-image.app img {
+    height: 190px;
   }
 }
+
+@media only screen and (max-width: 330px) {
+
+  .project-image.app img {
+    height: 170px;
+  }
+
+  .project-image.desktop-mobile img {
+    height: 230px;
+    margin-left: 8px;
+  }
+
+  .project-desc.desktop-mobile {
+    margin-top: 15px;
+  }
+
+  .project-image.ccs img {
+    height: 220px;
+    margin-left: 10px;
+  }
+
+  .project-desc.ccs {
+    margin-top: -50px;
+}
+
+}
+
+
 

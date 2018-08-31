@@ -8,6 +8,7 @@ render() {
     <div id="projects">
       <h1 className="project-title">Projects</h1>
 
+      <hr />
       <div className="project-block">
         <div className="project-image desktop-mobile">
           <img src={require("../../images/vinylog_desktop_iPhone.png")}alt="CCS"></img>
@@ -15,7 +16,7 @@ render() {
         <div className="project-desc desktop-mobile">
           <h2>Vinylog</h2>
           <p className="project-p desc">
-          Vinylog is web application that allows users to create a private and secure account to catalog their vinyl collection. By searching for an album title or artists name, users can retrieve a list of album release data including title, album image, genre, and release year. Users will be able to save results to their collection, view their collection, and remove them as well.
+          Vinylog is web application that allows users to create an account and catalog their vinyl collection. By searching for an album title or artists name, users can retrieve a list of album with release details including title, album image, genre, and release year. Users can then add albums to their collection.
           </p>
           <div className="stack-list">
             <ul>
@@ -66,33 +67,33 @@ render() {
       </div>
 
       <div className="project-block app">
-          <div className="project-image app">
-            <img src={require("../../images/drums.png")} alt="Drums" title="Click To View" />
+        <div className="project-image app">
+          <img src={require("../../images/drums.png")} alt="Drums" title="Click To View" />
+        </div>
+        <div className="project-desc app">
+          <h2 className="app-h2">Drums</h2>
+          <p className="project-p desc">An Android app that I built for fun. It is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums</p>
+        <ul>
+          <li>Java</li>
+          <li>XML</li>
+          <li>CSS3</li>
+        {/* </ul>
+        <ul> */}
+          <li>Android SDK</li>
+          <li>Gradle</li>
+        </ul>
+        <div className="project-button-group">
+          <div className="project-button">
+              <a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank" rel="noopener noreferrer">
+                <button>View Project</button></a>
           </div>
-          <div className="project-desc app">
-            <h2 className="app-h2">Drums</h2>
-            <p className="project-p desc">An Android app that I built for fun. It is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums</p>
-          <ul>
-            <li>Java</li>
-            <li>XML</li>
-            <li>CSS3</li>
-          {/* </ul>
-          <ul> */}
-            <li>Android SDK</li>
-            <li>Gradle</li>
-          </ul>
-          <div className="project-button-group">
-            <div className="project-button">
-                <a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank" rel="noopener noreferrer">
-                  <button>View Project</button></a>
-            </div>
-            <div className="repo-button">
-                <a href="https://github.com/LeReiver/drums" target="_blank" rel="noopener noreferrer">
-                  <button>View Repo</button></a>
-            </div>
+          <div className="repo-button">
+              <a href="https://github.com/LeReiver/drums" target="_blank" rel="noopener noreferrer">
+                <button>View Repo</button></a>
           </div>
         </div>
       </div>
+    </div>
 
     </div>
     );
