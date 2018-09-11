@@ -175,7 +175,7 @@ button {
 
   .project-image img {
     height: 470px;
-    margin: 65px auto 65px 200px;
+    margin: 65px auto 65px 195px;
   }
 
   .project-image.ccs img {
@@ -221,8 +221,7 @@ button {
 @media only screen and (max-width: 800px) {
 
   .project-image.desktop-mobile img {
-    height: 500px;
-    margin-left: 55px;
+    height: 65vw;
   }
 
   .project-image.ccs img {
@@ -408,6 +407,23 @@ button {
 
   .app-h2 {
     margin-top: -230px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+
+  .project-image img,
+  .project-image.ccs img  {
+    height: 35vw;
+  }
+
+  .project-image.app img {
+    height: 27vw;
+  }
+
+  .project-desc {
+    width: 50vw;
   }
 
 }
