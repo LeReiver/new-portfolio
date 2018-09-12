@@ -11,6 +11,42 @@ render() {
       <hr />
       <div className="project-block">
         <div className="project-image desktop-mobile">
+          <img src={require("../../images/karpul_desktop_phone.png")}alt="CCS"></img>
+        </div>
+        <div className="project-desc desktop-mobile">
+          <h2>Karpul</h2>
+          <p className="project-p desc">
+          Vinylog is web application that allows users to create an account and catalog their vinyl collection. By searching for an album title or artists name, users can retrieve a list of album with release details including title, album image, genre, and release year. Users can then add albums to their collection.
+          </p>
+          <div className="stack-list">
+            <ul>
+              <li>JavaScript</li>
+              <li>React/Redux</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+            <ul>
+              <li>Node.js</li>
+              <li>JWT Auth</li>
+              <li>MongoDB</li>
+              <li>Mocha/Chai</li>
+            </ul>
+          </div>
+          <div className="project-button-group">
+            <div className="project-button">
+                <a href="https://karpul-client.surge.sh" target="_blank">
+                  <button>View Project</button></a>
+            </div>
+            <div className="repo-button">
+                <a href="https://github.com/LeReiver/mike_vinylog_client" target="_blank">
+                <button>View Repo</button></a>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+        <div className="project-block">
+        <div className="project-image desktop-mobile">
           <img src={require("../../images/vinylog_desktop_iPhone.png")}alt="CCS"></img>
         </div>
         <div className="project-desc desktop-mobile">
@@ -34,7 +70,43 @@ render() {
           </div>
           <div className="project-button-group">
             <div className="project-button">
-                <a href="https://vinylog.herokuapp.com/" target="_blank">
+                <a href="https://vinylog.surge.sh" target="_blank">
+                  <button>View Project</button></a>
+            </div>
+            <div className="repo-button">
+                <a href="https://github.com/LeReiver/mike_vinylog_client" target="_blank">
+                <button>View Repo</button></a>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+        <div className="project-block">
+        <div className="project-image desktop-mobile">
+          <img src={require("../../images/whereami_desktop_phone.png")}alt="CCS"></img>
+        </div>
+        <div className="project-desc desktop-mobile">
+          <h2>Where Am I?</h2>
+          <p className="project-p desc">
+          Vinylog is web application that allows users to create an account and catalog their vinyl collection. By searching for an album title or artists name, users can retrieve a list of album with release details including title, album image, genre, and release year. Users can then add albums to their collection.
+          </p>
+          <div className="stack-list">
+            <ul>
+              <li>JavaScript</li>
+              <li>React/Redux</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+            <ul>
+              <li>Node.js</li>
+              <li>JWT Auth</li>
+              <li>MongoDB</li>
+              <li>Mocha/Chai</li>
+            </ul>
+          </div>
+          <div className="project-button-group">
+            <div className="project-button">
+                <a href="https://whereami.surge.sh" target="_blank">
                   <button>View Project</button></a>
             </div>
             <div className="repo-button">
