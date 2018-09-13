@@ -27,16 +27,14 @@ footer {
 }
 
 .footer-item {
-  /* margin: 32px 20px 10px 60px; */
   display: inline-block;
   color: white;
-  /* float: right; */
   margin: 0 30px;
 }
 .footer-item i {
   color: white;
   font-size: 45px;
-  margin: -10px auto 5px auto;
+    margin: -10px auto 10px 35px;
   transition: 0.8s;
 }
 

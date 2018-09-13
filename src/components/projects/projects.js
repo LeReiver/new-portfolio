@@ -87,7 +87,7 @@ render() {
         <div className="project-desc desktop-mobile">
           <h2>Where Am I?</h2>
           <p className="project-p desc">
-          Wher Am I? is a pair project web application that uses spaced repetition to create a learning experience for associating famous monuments with the countries they are in. It is great for testing your memory and for inspiring future travel.
+          Where Am I? is a pair project web application that uses spaced repetition to create a learning experience for associating famous monuments with the countries they are in. It is great for testing your memory and for inspiring future travel.
           </p>
           <div className="stack-list">
             <ul>

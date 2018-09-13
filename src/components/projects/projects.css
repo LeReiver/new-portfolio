@@ -178,25 +178,35 @@ button {
     padding: 5px;
   }
 
+  p, p.project-p {
+    width: 95%;
+    margin: -15px auto 20px;
+    font-size: 2vw;
+  }
+
+  .project-desc > h2 {
+    font-size: 3vw;
+  }
+
   .project-image img {
-    /* height: 470px; */
+    height: 40vw;
     /* margin: 65px auto 65px 195px; */
-    height: 358px;
-    margin-left: 27px;
+    /* height: 358px; */
+    margin-left: 10px;
   }
 
   .project-image.ccs img {
     margin-top: -70px;
+    margin-left: 10px;
     padding-bottom: 200px;
-    height: 470px;
+    /* height: 470px; */
+    height: 40vw;
   }
 
   .project-image.app img {
     padding-bottom: 200px;
-    height: 370px;
-    margin-left: 27px; 
-    margin-bottom: 75px;
-    margin-top: -200px;
+    height: 30vw;
+    margin: -200px 5px 75px 8px;
   }
 
   .project-desc {
@@ -206,7 +216,7 @@ button {
   .project-desc.desktop-mobile {
     margin-top: 1px;
     margin-left: 10px;
-    width: 50%;
+    width: 40vw;
   }
 
   .project-block.ccs {
@@ -215,6 +225,7 @@ button {
 
   .project-desc.ccs {
     margin-top: -130px;
+    width: 40vw;
   }
 
   .project-block.app {
@@ -224,7 +235,7 @@ button {
 
   .project-desc.app {
     margin-top: -90px;
-    width: 50%;
+    width: 40vw;
   }
 
   .app-h2 {
@@ -235,34 +246,71 @@ button {
     margin-left: -50px;
   }
 
+  .project-button button {
+    margin-left: 125px;
+    padding: 0;
+    width: 100px;
+    font-size: 90%;
+    height: 30px;
+  }
+
+  .repo-button button {
+    width: 100px;
+    font-size: 90%;
+    height: 30px;
+  }
+
 }
 
 @media only screen and (max-width: 800px) {
 
   .project-image.desktop-mobile img {
     height: 65vw;
+    margin-left: 55px;
   }
 
   .project-image.ccs img {
-    height: 500px;
+    height: 65vw;
     margin-left: 55px;
   }
 
   .project-image.app img {
-    height: 370px;
+    height: 48vw;
     margin-left: 60px;
+  }
+
+  p, p.project-p {
+    font-size: 20px;
+  }
+
+  .project-desc > h2 {
+    font-size: 30px;
   }
 
   .project-desc.desktop-mobile {
     margin-top: 250px;
+    width: 80%;
   }
 
   .project-desc.ccs {
     margin-top: 120px;
+    width: 80%;
+  }
+
+
+  .project-desc.app {
+    margin-top: 30px;
+    width: 80%;
   }
 
   .project-button button {
-    margin-left: 150px;
+    margin-left: 190px;
+    margin-top: 20px;
+  }
+
+  .repo-button button {
+    margin-top: 20px;
+    margin-left: -30px;
   }
 
 }
@@ -274,8 +322,9 @@ button {
   }
 
   .project-image.desktop-mobile img {
-    height: 370px;
+    height: 65vw;
     margin-top: 120px;
+    margin-left: 40px;
   }
 
   .project-desc.desktop-mobile {
@@ -284,7 +333,8 @@ button {
 
   .project-image.ccs img {
     margin-top: 80px;
-    height: 370px;
+    height: 65vw;
+    margin-left: 40px;
   }
 
   .project-desc.ccs {
@@ -292,13 +342,13 @@ button {
   }
 
   .project-image.app img {
-    height: 320px;
+    height: 50vw;
     margin-left: 20px;
   }
 
   .project-desc.app {
     margin-top: 0;
-}
+  }
 
   p, p.p2 {
     text-align: start;
@@ -307,6 +357,10 @@ button {
   .project-button-group {
     margin-top: 20px;
   }
+
+  .project-button {
+    margin-left: 0;
+}
 
   .project-button button {
     margin: 0;
@@ -331,21 +385,23 @@ button {
   }
 
   .project-image.desktop-mobile img {
-    height: 250px;
-    margin: 100px 0 20px 20px;
+    margin-bottom: 130px;
+    margin-left: 25px;
   }
 
   .project-desc.desktop-mobile {
-    margin-top: 50px;
+    margin-top: 100px;
+    width: 93%;
+    margin-left: 0;
   }
 
   .project-image.ccs img {
-    height: 200px;
-    margin-top: 50px;
+    margin-top: -35px;
+    margin-left: 25px;
   }
 
   .project-block.app {
-    margin-top: 120px;
+    margin-top: 230px;
     margin-bottom: 100px;
   }
 
@@ -366,7 +422,15 @@ button {
   }
 
   .project-desc.ccs {
-    margin-top: -60px;
+    margin-top: -100px;
+  }
+
+   .project-desc.app {
+    margin-top: 160px;
+  }
+
+  .project-desc.app > h2 {
+    margin-top: -400px;
   }
 
   p.p2.stack {
@@ -397,6 +461,11 @@ button {
 
   .project-image.app img {
     height: 190px;
+  }
+
+
+  .project-desc.desktop-mobile {
+    margin-top: 100px;
   }
 }
 
