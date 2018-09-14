@@ -118,7 +118,7 @@ render() {
 
       <div className="project-block app pantry">
         <div className="project-image app pantry">
-          <img src={require("../../images/planned-pantry_phone_1.png")} alt="Drums" title="Click To View" />
+          <img src={require("../../images/planned-pantry_phone_2.png")} alt="Drums" title="Click To View" />
         </div>
         <div className="project-desc app pantry">
           <h2 className="app-h2">Planned Pantry</h2>
