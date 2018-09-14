@@ -84,12 +84,17 @@ button {
 
 .project-block.ccs {
   margin-bottom: 130px;
+  margin-top: -30px;
 }
 
 .project-block.app {
   margin-bottom: 210px;
   margin-top: 210px;
 }
+
+ .project-block.app.pantry {
+    margin-top: 20px;
+  }
 
 .project-title {
   margin: 50px auto 0;
@@ -146,6 +151,12 @@ button {
   margin-right: 0;
 }
 
+.project-image.app.pantry img {
+  height: 420px;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
 .project-button button{
   float: left;
   margin-left: 120px;
@@ -190,8 +201,6 @@ button {
 
   .project-image img {
     height: 40vw;
-    /* margin: 65px auto 65px 195px; */
-    /* height: 358px; */
     margin-left: 10px;
   }
 
@@ -207,6 +216,11 @@ button {
     padding-bottom: 200px;
     height: 30vw;
     margin: -200px 5px 75px 8px;
+  }
+
+  .project-image.app.pantry img {
+    height: 32vw;
+    margin-right: 40px;
   }
 
   .project-desc {
@@ -226,6 +240,10 @@ button {
   .project-desc.ccs {
     margin-top: -130px;
     width: 40vw;
+  }
+
+  .project-block.app.pantry {
+    margin-top: 250px;
   }
 
   .project-block.app {
@@ -258,6 +276,7 @@ button {
     width: 100px;
     font-size: 90%;
     height: 30px;
+    padding: 0;
   }
 
 }
@@ -278,6 +297,12 @@ button {
     height: 48vw;
     margin-left: 60px;
   }
+
+  .project-image.app.pantry img {
+    height: 58vw;
+    margin-left: 50px;
+  }
+
 
   p, p.project-p {
     font-size: 20px;
@@ -302,6 +327,11 @@ button {
     margin-top: 30px;
     width: 80%;
   }
+
+  .project-desc.app.pantry {
+    margin-top: 120px;
+    width: 80%;
+}
 
   .project-button button {
     margin-left: 190px;
@@ -350,6 +380,11 @@ button {
     margin-top: 0;
   }
 
+  .project-desc.app.pantry {
+    margin-top: 0;
+    width: 80%;
+  }
+
   p, p.p2 {
     text-align: start;
   }
@@ -377,7 +412,7 @@ button {
 @media only screen and (max-width: 480px) {
 
   h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .project-title {
@@ -396,7 +431,7 @@ button {
   }
 
   .project-image.ccs img {
-    margin-top: -35px;
+    margin-top: -85px;
     margin-left: 25px;
   }
 
@@ -409,6 +444,11 @@ button {
     height: 200px;
     margin: -320px 0 -60px 15px;
     padding-bottom: 50px;
+  }
+
+  .project-image.app.pantry img {
+    height: 55vw;
+    margin-left: 50px;
   }
 
   .project-desc {
@@ -431,6 +471,12 @@ button {
 
   .project-desc.app > h2 {
     margin-top: -400px;
+  }
+
+
+  .project-desc.app.pantry  > h2{
+    margin-top: -230px;
+    /* width: 80%; */
   }
 
   p.p2.stack {
@@ -460,23 +506,29 @@ button {
 @media only screen and (max-width: 360px) {
 
   .project-image.app img {
-    height: 190px;
+    height: 170px;
   }
-
 
   .project-desc.desktop-mobile {
     margin-top: 100px;
   }
+
+  .project-image.app.pantry img {
+    height: 64vw;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
 }
 
 @media only screen and (max-width: 330px) {
 
   .project-image.app img {
-    height: 170px;
+    height: 160px;
   }
 
   .project-image.desktop-mobile img {
-    height: 230px;
+    height: 220px;
     margin-left: 8px;
   }
 
@@ -490,7 +542,7 @@ button {
   }
 
   .project-desc.ccs {
-    margin-top: -50px;
+    margin-top: -140px;
   }
 
   .app-h2 {
@@ -508,6 +560,10 @@ button {
 
   .project-image.app img {
     height: 27vw;
+  }
+
+  .project-image.app.pantry img {
+    height: 32vw;
   }
 
   .project-desc {

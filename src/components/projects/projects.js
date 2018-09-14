@@ -15,7 +15,7 @@ render() {
         <div className="project-desc desktop-mobile">
           <h2>Karpul</h2>
           <p className="project-p desc">
-          Karpul web application that allows users to find and create carpools. Users can search for an carpool by destination address, request to join carpools, and get to know carpool members from their profile.
+          Karpul is a web application that allows users to find and create carpools. Users can search for an carpool by destination address, request to join carpools, and get to know carpool members from their profile.
           </p>
           <div className="stack-list">
             <ul>
@@ -109,12 +109,38 @@ render() {
                   <button>View Project</button></a>
             </div>
             <div className="repo-button">
-                <a href="https://github.com/LeReiver/mike_vinylog_client" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/thinkful-ei21/Mike-Giovanni-Spaced-Repetition-Client" target="_blank" rel="noopener noreferrer">
                 <button>View Repo</button></a>
             </div>
           </div>
         </div>
       </div> 
+
+      <div className="project-block app pantry">
+        <div className="project-image app pantry">
+          <img src={require("../../images/planned-pantry_phone_1.png")} alt="Drums" title="Click To View" />
+        </div>
+        <div className="project-desc app pantry">
+          <h2 className="app-h2">Planned Pantry</h2>
+          <p className="project-p desc">Planned Pantry is a React-Native app that allows users to create a private and secure account to plan and log your weekly meals. Users create meals with meal times and are able to add them to their Users create meals with meal times and are able to add them to their meals list.</p>
+        <ul>
+          <li>React-Native</li>
+          <li>Firebase DB</li>
+          <li>Firebase User Auth</li>
+        </ul>
+        <div className="project-button-group">
+          <div className="project-button">
+              <a href="https://snack.expo.io/@lereiver/planned-pantry" target="_blank" rel="noopener noreferrer">
+                <button>View Project</button></a>
+          </div>
+          <div className="repo-button">
+              <a href="https://github.com/LeReiver/planned-pantry" target="_blank" rel="noopener noreferrer">
+                <button>View Repo</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
       <div className="project-block ccs">
         <div className="project-image ccs">
@@ -141,7 +167,7 @@ render() {
         </div>
         <div className="project-desc app">
           <h2 className="app-h2">Drums</h2>
-          <p className="project-p desc">An Android app that is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums</p>
+          <p className="project-p desc">Drums is an Android app that is a rudimentary drum machine with language support for Italian and Japanese. Great for children to learn the parts of the drums.</p>
         <ul>
           <li>Java</li>
           <li>XML</li>
