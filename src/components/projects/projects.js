@@ -10,7 +10,7 @@ render() {
       <hr />
       <div className="project-block">
         <div className="project-image desktop-mobile">
-          <img src={require("../../images/karpul_desktop_phone.png")}alt="CCS"></img>
+          <img src={require("../../images/karpul_desktop_phone.png")}alt="Karpul"></img>
         </div>
         <div className="project-desc desktop-mobile">
           <h2>Karpul</h2>
@@ -46,7 +46,7 @@ render() {
 
       <div className="project-block">
         <div className="project-image desktop-mobile">
-          <img src={require("../../images/vinylog_desktop_iPhone.png")}alt="CCS"></img>
+          <img src={require("../../images/vinylog_desktop_iPhone.png")}alt="Vinylog"></img>
         </div>
         <div className="project-desc desktop-mobile">
           <h2>Vinylog</h2>
@@ -82,7 +82,7 @@ render() {
 
       <div className="project-block">
         <div className="project-image desktop-mobile">
-          <img src={require("../../images/whereami_desktop_phone.png")}alt="CCS"></img>
+          <img src={require("../../images/whereami_desktop_phone.png")}alt="Where am I?"></img>
         </div>
         <div className="project-desc desktop-mobile">
           <h2>Where Am I?</h2>
@@ -118,11 +118,11 @@ render() {
 
       <div className="project-block app pantry">
         <div className="project-image app pantry">
-          <img src={require("../../images/planned-pantry_phone_2.png")} alt="Drums" title="Click To View" />
+          <img src={require("../../images/planned-pantry_phone_4.png")} alt="Planned Pantry" title="Click To View" />
         </div>
         <div className="project-desc app pantry">
           <h2 className="app-h2">Planned Pantry</h2>
-          <p className="project-p desc">Planned Pantry is a React-Native app that allows users to create a private and secure account to plan and log your weekly meals. Users create meals with meal times and are able to add them to their Users create meals with meal times and are able to add them to their meals list.</p>
+          <p className="project-p desc">Planned Pantry is a React-Native app that allows users to create a private and secure account to plan and log your weekly meals. Users create meals with meal times and are able to add them to their meals list.</p>
         <ul>
           <li>React-Native</li>
           <li>Firebase DB</li>

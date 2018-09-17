@@ -20,7 +20,6 @@ footer {
 }
 
 .social-links {
-  /* margin: 0 auto; */
   margin: 20px auto 10px auto;
   width: 100%;
   text-align: center;
@@ -29,12 +28,12 @@ footer {
 .footer-item {
   display: inline-block;
   color: white;
-  margin: 0 30px;
+  margin: 0 25px;
 }
 .footer-item i {
   color: white;
   font-size: 45px;
-  margin: -10px auto 10px 30px;
+  margin: -10px auto 10px 35px;
   transition: 0.8s;
 }
 
@@ -46,7 +45,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .footer-item {
-    margin-left: 5px;
+    margin-left: 0;
   }
 
   .footer-title {
