@@ -1,6 +1,4 @@
 header {
-  /* background-color: rgb(29, 71, 126);
-   */
   background-color: rgb(32, 46, 68);
   height: 60px;
   padding: 10px 40px;
@@ -40,7 +38,6 @@ nav a:visited {
 nav .navWide {
   display: none;
   margin: 0 auto;
-  transition: 0.8s;
 }
 
 nav .navWide .wideDiv {
@@ -50,9 +47,7 @@ nav .navWide .wideDiv {
 nav .navWide .wideDiv a {
   text-decoration: none;
   display: inline-block;
-  transition: 0.8s;
-  margin: 5px 20px 0 0;
-  transition: 0.8s;
+  margin: 5px 15px 0 0;
 }
 
 nav .navWide .wideDiv a:hover {
@@ -83,7 +78,7 @@ nav .navNarrow .narrowLinks a {
   float: right;
   clear: both;
   margin: 10px 100px 30px 0;
-  background-color: rgb(32, 46, 68);
+  background-color: transparent;
   height: 200%;
   width: 50%;
 }
@@ -96,7 +91,6 @@ nav .navNarrow .narrowLinks a {
   nav .navWide {
     display: block;
     transition: 0.8s;
-    background-color: rgb(32, 46, 68);
     padding: 10px;
     float: right;
     margin-right: 100px;
@@ -118,6 +112,11 @@ nav .navNarrow .narrowLinks a {
     background-color: rgb(32, 46, 68);
     height: 200%;
   }
+
+
+nav .navNarrow .narrowLinks a { 
+  background-color: rgb(32, 46, 68)
+}
 
 
   nav .navNarrow i {
@@ -143,7 +142,13 @@ nav .navNarrow .narrowLinks a {
   .header-title {
     margin-left: -30px;
   }
+
+  nav .navWide {
+    margin-right: 30px;
+  }
+
 }
+
 @media only screen and (max-width: 600px) {
 
   header {
@@ -159,18 +164,16 @@ nav .navNarrow .narrowLinks a {
     padding-bottom: 15px;
   }
 
-  nav {
-    margin-right: -20px;
-  }
 
   nav .navWide {
     margin-top: 0;
+    margin-right: 40px;
     padding: 0;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   nav .navNarrow i {
-    margin-right: 100px;
+    margin-right: 60px;
     margin-top: 7px;
   }
 
@@ -182,10 +185,11 @@ nav .navNarrow .narrowLinks a {
 
   nav .navNarrow .narrowLinks a {
     width: 100%;
-    margin-right: 55px;
+    margin-right: 35px;
     font-size: 28px;
     margin-top: -35px;
-    padding: 5%;
+    padding: 5%; 
+    background-color: rgb(32, 46, 68)
   }
 
 
@@ -193,8 +197,12 @@ nav .navNarrow .narrowLinks a {
 
 @media only screen and (max-width: 350px) {
   .navNarrow {
-    margin-right: -30px;
+    margin-right: -20px;
   }
+
+  nav .navNarrow i {
+    margin-right: 80px;
+}
 
   .header-title {
     font-size: 220%;

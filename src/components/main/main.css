@@ -34,7 +34,7 @@ p.p2.heading {
   background-image: url('../../images/hero3.jpg');
   background-color: rgb(67, 84, 107);
   background-blend-mode: multiply;
-  background-position: left top;
+  background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;

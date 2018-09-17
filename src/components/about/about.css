@@ -1,5 +1,5 @@
 section {
-  height: 100vh;
+  height: 98vh;
 }
 
 .about-title {
@@ -8,6 +8,7 @@ section {
   color: white;
   font-size: 45px;
   font-weight: 400;
+  width: 600px;
 }
 
 p, p.p2 {
@@ -31,14 +32,43 @@ p.p2.left.about {
 
 #about {
   margin-top: -320px;
-  background-image: url('../../images/hero4.jpg');
   background-color: rgb(67, 84, 107);
   background-blend-mode: multiply;
-  background-position: left top;
+  background-image: url('../../images/hero4.jpg');
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
 }
+
+
+@media only screen and (min-width: 400px) {
+  .about-title {
+    margin-top: 400px;
+    padding: 30px 5px 50px 5px;
+  }
+
+  p.p2.left.about {
+    font-size: 170%;
+    padding-bottom: 100px;
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-title {
+    margin-top: 400px;
+    width: 500px;
+  }
+
+  #about {
+    margin-top: -360px;
+    margin-bottom: 20px;
+    background-position: top right;
+  }
+}
+
+
 
 @media only screen and (max-width: 550px) {
 
@@ -76,25 +106,15 @@ section {
     padding: 50px 0;
     font-size: 38px;
     line-height: 110%;
+    width: 300px;
   }
 
   p.p2.left.about {
     font-size: 190%;
-    margin-left: 20px;
+    text-align: start;
+    width: 95%;
   }
 
-}
-
-@media only screen and (max-width: 600px) {
-  .about-title {
-    margin-top: 400px;
-  }
-
-  #about {
-    margin-top: -360px;
-    margin-bottom: 20px;
-    background-image: url('../../images/hero4-sm.jpeg');
-  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -103,26 +123,12 @@ section {
     padding: 50px 0;
     font-size: 38px;
     line-height: 110%;
+    width: 300px;
   }
 
   p.p2.left.about {
     font-size: 150%;
-    margin-left: 20px;
     margin-top: -60px;
   }
 
-}
-
-@media only screen and (min-width: 400px) {
-  .about-title {
-    margin-top: 400px;
-    padding: 30px 5px 50px 5px;
-    font-size: 40px;
-    line-height: 110%;
-  }
-
-  p.p2.left.about {
-    font-size: 170%;
-    padding-bottom: 100px;
-  }
 }
