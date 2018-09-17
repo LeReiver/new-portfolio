@@ -1,5 +1,5 @@
 section {
-  height: 98vh;
+  height: 90vh;
 }
 
 .about-title {
@@ -63,7 +63,7 @@ p.p2.left.about {
 
   #about {
     margin-top: -360px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     background-position: top right;
   }
 }
@@ -72,10 +72,10 @@ p.p2.left.about {
 
 @media only screen and (max-width: 550px) {
 
-section {
-  height: 95vh;
-  padding-bottom: 30px;
-}
+  section {
+    /* height: 95vh; */
+    /* padding-bottom: 30px; */
+  }
 
   p, p.p2,
   .about-title {
