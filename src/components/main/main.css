@@ -41,9 +41,6 @@ p.p2.heading {
 }
 
 @media only screen and (max-width: 550px) {
-  main {
-  padding-bottom: 20px;
-  }
 
   p, p.p2,
   .main-title {
@@ -97,6 +94,7 @@ p.p2.heading {
 
   p.p2.heading {
     margin-bottom: 40px;
+    margin-top: -40px;
   }
 
 }

@@ -63,12 +63,10 @@ p.p2.left.about {
 
   #about {
     margin-top: -360px;
-    /* margin-bottom: 20px; */
     background-position: top right;
+    margin-bottom: 20px;
   }
 }
-
-
 
 @media only screen and (max-width: 550px) {
 

@@ -26,8 +26,8 @@ render() {
             </ul>
             <ul>
               <li>Node.js</li>
+              <li>MongoDB/Mongoose</li>
               <li>JWT Auth</li>
-              <li>MongoDB</li>
               <li>Mocha/Chai</li>
             </ul>
           </div>
@@ -62,8 +62,8 @@ render() {
             </ul>
             <ul>
               <li>Node.js</li>
+              <li>MongoDB/Mongoose</li>
               <li>JWT Auth</li>
-              <li>MongoDB</li>
               <li>Mocha/Chai</li>
             </ul>
           </div>
@@ -98,8 +98,8 @@ render() {
             </ul>
             <ul>
               <li>Node.js</li>
+              <li>MongoDB/Mongoose</li>
               <li>JWT Auth</li>
-              <li>MongoDB</li>
               <li>Mocha/Chai</li>
             </ul>
           </div>
@@ -124,6 +124,7 @@ render() {
           <h2 className="app-h2">Planned Pantry</h2>
           <p className="project-p desc">Planned Pantry is a React-Native app that allows users to create a private and secure account to plan and log your weekly meals. Users create meals with meal times and are able to add them to their meals list.</p>
         <ul>
+          <li>JavaScript</li>
           <li>React-Native</li>
           <li>Firebase DB</li>
           <li>Firebase User Auth</li>
