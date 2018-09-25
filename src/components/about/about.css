@@ -31,8 +31,9 @@ p.p2 {
 p.p2.left.about {
   /* font-size: 130%; */
   font-weight: 500;
-  margin: auto;
+  margin: 20px auto;
   color: #202e44!important;
+  text-align: start;
 }
 
 
@@ -73,14 +74,14 @@ p.p2.left.about {
 
 @media only screen and (max-width: 1024px) {
   #about {
-    padding-bottom: 35%;
+    padding-bottom: 45%;
   }
 
 }
 
 @media only screen and (max-width: 768px) {
   #about {
-    padding-bottom: 0;
+    padding-bottom: 15%;
   }
 
 }
@@ -99,6 +100,10 @@ p.p2.left.about {
 }
 
 @media only screen and (max-width: 550px) {
+
+  #about {
+    padding-bottom: 0;
+  }
 
 .bio-pic {
   margin-top: -60px;

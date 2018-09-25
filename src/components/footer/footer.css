@@ -28,12 +28,13 @@ footer {
 .footer-item {
   display: inline-block;
   color: white;
-  margin: 0 25px;
+  margin: 0 25px 0 0;
 }
+
 .footer-item i {
   color: white;
   font-size: 45px;
-  margin: -10px auto 10px 35px;
+  margin: -10px auto 10px 30px;
   transition: 0.8s;
 }
 
