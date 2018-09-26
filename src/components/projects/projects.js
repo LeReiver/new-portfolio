@@ -15,7 +15,7 @@ render() {
         <div className="project-desc desktop-mobile">
           <h2>Karpul</h2>
           <p className="project-p desc">
-          Karpul is a web application that allows users to find and create carpools. Users can search for an carpool by destination address, request to join carpools, and get to know carpool members from their profile.
+          Karpul is a web application that allows users to find and create carpools. Users can search for a carpool by destination address, request to join carpools, and get to know carpool members from their profile.
           </p>
           <div className="stack-list">
             <ul>
@@ -115,33 +115,6 @@ render() {
           </div>
         </div>
       </div> 
-
-      <div className="project-block app pantry">
-        <div className="project-image app pantry">
-          <img src={require("../../images/planned-pantry_phone_4.png")} alt="Planned Pantry" title="Click To View" />
-        </div>
-        <div className="project-desc app pantry">
-          <h2 className="app-h2">Planned Pantry</h2>
-          <p className="project-p desc">Planned Pantry is a React-Native app that allows users to create a private and secure account to plan and log your weekly meals. Users create meals with meal times and are able to add them to their meals list.</p>
-        <ul>
-          <li>JavaScript</li>
-          <li>React-Native</li>
-          <li>Firebase DB</li>
-          <li>Firebase User Auth</li>
-        </ul>
-        <div className="project-button-group">
-          <div className="project-button">
-              <a href="https://snack.expo.io/@lereiver/planned-pantry" target="_blank" rel="noopener noreferrer">
-                <button>View Project</button></a>
-          </div>
-          <div className="repo-button">
-              <a href="https://github.com/LeReiver/planned-pantry" target="_blank" rel="noopener noreferrer">
-                <button>View Repo</button></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
       <div className="project-block ccs">
         <div className="project-image ccs">

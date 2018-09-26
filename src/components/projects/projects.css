@@ -37,6 +37,11 @@ p.p2.stack {
   font-weight: 600;
 }
 
+.progress-note {
+  text-align: center;
+  color: black;
+}
+
 ul {
   margin: 0;
   padding: 0;
