@@ -14,12 +14,11 @@ p, p.project-p {
   font-size: 20px;
   font-weight: 300;
   color: rgb(32, 46, 68)!important;
-  text-align: justify;
+  text-align: start;
 }
 
 p.p2 {
   font-size: 180%;
-  
 }
 
 p.p2.desc {
@@ -76,6 +75,12 @@ button {
   font-weight: bold;
 }
 
+
+
+.project-button-group.website {
+  margin: 0 auto 0 100px;
+}
+
 .projects-button {
   color: yellow;
   border: thin white solid;
@@ -87,6 +92,12 @@ button {
   margin-top: 0;
 }
 
+
+.project-block.vinyl {
+  margin-top: 30px;
+}
+
+
 .project-block.ccs {
   margin-bottom: 130px;
   margin-top: -30px;
@@ -94,7 +105,17 @@ button {
 
 .project-block.app {
   margin-bottom: 210px;
-  margin-top: 210px;
+  margin-top: 30px;
+}
+
+.project-block.hshi {
+  margin-bottom: 250px;
+  margin-top: -50px;
+}
+
+.project-block.kc {
+  margin-bottom: 260px;
+  margin-top: 130px;
 }
 
  .project-block.app.pantry {
@@ -171,6 +192,14 @@ button {
 .repo-button button {
    margin-top: 20px;
    margin-left: -30px;
+}
+
+.repo-button.disabled button:hover {
+  cursor: auto;
+  background-color: transparent;
+  border: thin rgb(32, 46, 68) solid;
+  color: rgb(32, 46, 68);
+
 }
 
 #projects {
@@ -261,6 +290,10 @@ button {
     width: 40vw;
   }
 
+  .project-block.hshi {
+    margin-top: -70px;
+  }
+
   .app-h2 {
     margin-top: -110px;
   }
@@ -327,6 +360,13 @@ button {
     width: 80%;
   }
 
+  .project-block.hshi {
+    margin-top: 0;
+}
+
+.project-block.kc {
+  margin-top: 70px;
+}
 
   .project-desc.app {
     margin-top: 30px;
@@ -445,8 +485,18 @@ button {
     margin-bottom: 100px;
   }
 
+  .project-block.hshi {
+    margin-top: -170px;
+    margin-bottom: 80px;
+}
+
+.project-block.kc {
+  margin-top: -30px;
+}
+
+
   .project-image.app img {
-    height: 200px;
+    height: 50vw;
     margin: -320px 0 -60px 15px;
     padding-bottom: 50px;
   }

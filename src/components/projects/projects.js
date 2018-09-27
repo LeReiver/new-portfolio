@@ -44,7 +44,7 @@ render() {
         </div>
       </div> 
 
-      <div className="project-block">
+      <div className="project-block vinyl">
         <div className="project-image desktop-mobile">
           <img src={require("../../images/vinylog_desktop_iPhone.png")}alt="Vinylog"></img>
         </div>
@@ -116,25 +116,6 @@ render() {
         </div>
       </div> 
 
-      <div className="project-block ccs">
-        <div className="project-image ccs">
-          <img src={require("../../images/ccs_desktop_md.png")}alt="CCS"></img>
-        </div>
-        <div className="project-desc ccs">
-          <h2>Coordinated Consulting Services</h2>
-          <p className="project-p desc">A private and secure web application for a consulting firm that
-              requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
-          <ul>
-            <li>PHP</li>
-            <li>jQuery</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>MySQL</li>
-            <li>phpMyAdmin</li>
-          </ul>
-        </div>
-      </div>
-
       <div className="project-block app">
         <div className="project-image app">
           <img src={require("../../images/drums.png")} alt="Drums" title="Click To View" />
@@ -163,6 +144,87 @@ render() {
         </div>
       </div>
     </div>
+
+      <div className="project-block hshi">
+        <div className="project-image desktop-mobile">
+          <img src={require("../../images/hshi_desktop_phone.png")}alt="Home Sweet Home"></img>
+        </div>
+        <div className="project-desc desktop-mobile">
+          <h2>Home Sweet Home Inspections</h2>
+          <p className="project-p desc">
+          Home Sweet Home Inspections is a home inspection business based out of Atlanta, Georgia. I created this WordPress site to provide the client with a mobile and modern web presence to increase visibility and to allow customers to schedule their home inspection.
+          </p>
+          <div className="stack-list">
+            <ul>
+              <li>WordPress</li>
+              <li>PHP</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+          <div className="project-button-group">
+            <div className="project-button">
+              <a href="http://hsh-inspections.com/" target="_blank" rel="noopener noreferrer">
+                <button>View Website</button></a>
+            </div>
+            <div className="repo-button disabled">
+                <a href="" target="_blank" rel="noopener noreferrer">
+                <button disabled>View Repo</button></a>
+            </div>
+          </div>
+        </div>
+      </div> 
+    
+
+      <div className="project-block">
+        <div className="project-image desktop-mobile">
+          <img src={require("../../images/ccs_desktop.png")}alt="CCS"></img>
+        </div>
+        <div className="project-desc desktop-mobile">
+          <h2>Coordinated Consulting Services</h2>
+          <p className="project-p desc">A private and secure web application for a consulting firm that
+              requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
+          <ul>
+            <li>PHP</li>
+            <li>jQuery</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>MySQL</li>
+            <li>phpMyAdmin</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="project-block kc">
+        <div className="project-image desktop-mobile">
+          <img src={require("../../images/kitchen-commons_desktop_phone.png")}alt="Kitchen Commons"></img>
+        </div>
+        <div className="project-desc desktop-mobile">
+          <h2>Kitchen Commons</h2>
+          <p className="project-p desc">
+          Kitchen Commons is a non-profit in Portland Oregon that provides community kitchen resources. As an internship, I designed content and element layout, customized WordPress theme to match logos and branding styles, as well as administered user accounts and plugins. As a volunteer for the organization, I analyzed, wrote, and implemented comprehensive SEO report.
+          </p>
+          <div className="stack-list">
+            <ul>
+              <li>WordPress</li>
+              <li>PHP</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SEO</li>
+            </ul>
+          </div>
+          <div className="project-button-group">
+            <div className="project-button">
+              <a href="https://kitchencommons.net/" target="_blank" rel="noopener noreferrer">
+                <button>View Website</button></a>
+            </div>
+            <div className="repo-button disabled">
+                <a href="" target="_blank" rel="noopener noreferrer">
+                <button disabled>View Repo</button></a>
+            </div>
+          </div>
+        </div>
+      </div> 
 
     </div>
     );
