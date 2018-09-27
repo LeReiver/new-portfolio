@@ -169,7 +169,7 @@ render() {
             </div>
             <div className="repo-button disabled">
                 <a href="" target="_blank" rel="noopener noreferrer">
-                <button disabled>View Repo</button></a>
+                <button disabled>No Repo</button></a>
             </div>
           </div>
         </div>
@@ -182,8 +182,7 @@ render() {
         </div>
         <div className="project-desc desktop-mobile">
           <h2>Coordinated Consulting Services</h2>
-          <p className="project-p desc">A private and secure web application for a consulting firm that
-              requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
+          <p className="project-p desc">A robust web application for a consulting firm that includes user authentication and data persistence for report building. I was initially contracted for a database redesign, but upon hearing about their issues with scalability, I suggested developing a web application to handle the company's need to improve data gathering and reporting.</p>
           <ul>
             <li>PHP</li>
             <li>jQuery</li>
@@ -220,7 +219,7 @@ render() {
             </div>
             <div className="repo-button disabled">
                 <a href="" target="_blank" rel="noopener noreferrer">
-                <button disabled>View Repo</button></a>
+                <button disabled>No Repo</button></a>
             </div>
           </div>
         </div>

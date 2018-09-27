@@ -3,15 +3,15 @@ body {
   padding: 0;
   font-family: 'Chau Philomene One', sans-serif; 
   z-index: 0;
-
   background-color: rgba(56, 95, 113, 0.24);
-    text-align: center;
-    min-height: 100%;
-    background-position: center; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: auto;
+  text-align: center;
+  min-height: 100%;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
 }
+
 h1 {
   font-family: 'Chau Philomene One', sans-serif;
   font-weight: thin;

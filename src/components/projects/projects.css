@@ -11,7 +11,7 @@ h2 {
 p, p.project-p {
   width: 80%;
   margin: -15px auto 20px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   color: rgb(32, 46, 68)!important;
   text-align: start;
@@ -30,7 +30,7 @@ p.p2.desc {
 p.p2.stack {
   color: rgb(32, 46, 68);
   padding: 0 20px;
-  font-size: 20px;
+  font-size: 15px;
   /* margin-top: -150px; */
   margin-left: -20px;
   font-weight: 600;
@@ -52,11 +52,11 @@ ul > li {
   margin-left: 5px;
   color: white;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   list-style-type: none;
   background-color: rgb(32, 46, 68);
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -75,8 +75,6 @@ button {
   font-weight: bold;
 }
 
-
-
 .project-button-group.website {
   margin: 0 auto 0 100px;
 }
@@ -92,11 +90,9 @@ button {
   margin-top: 0;
 }
 
-
 .project-block.vinyl {
   margin-top: 30px;
 }
-
 
 .project-block.ccs {
   margin-bottom: 130px;
@@ -187,11 +183,13 @@ button {
   float: left;
   margin-left: 120px;
   margin-top: 20px;
+  height: 40px;
 }
 
 .repo-button button {
    margin-top: 20px;
    margin-left: -30px;
+   height: 40px;
 }
 
 .repo-button.disabled button:hover {
@@ -205,6 +203,7 @@ button {
 #projects {
   margin: 50px auto 0 auto;
   background-color: rgba(56, 95, 113, 0.24);
+  font-size: 80%;
 }
 
 #project_img {
