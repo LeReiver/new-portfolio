@@ -114,6 +114,11 @@ button {
   margin-top: 130px;
 }
 
+.project-block.bm {
+  margin-top: 130px;
+  margin-bottom: 320px;
+}
+
  .project-block.app.pantry {
     margin-top: 20px;
   }
@@ -363,9 +368,14 @@ button {
     margin-top: 0;
 }
 
-.project-block.kc {
-  margin-top: 70px;
-}
+  .project-block.kc {
+    margin-top: 70px;
+  }
+
+  .project-block.bm {
+    margin-bottom: 120px;
+  }
+  
 
   .project-desc.app {
     margin-top: 30px;
