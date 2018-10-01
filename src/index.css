@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Chau Philomene One', sans-serif; 
+  font-family: 'Oswald', sans-serif;
   z-index: 0;
   background-color: rgba(56, 95, 113, 0.24);
   text-align: center;
@@ -13,13 +13,13 @@ body {
 }
 
 h1 {
-  font-family: 'Chau Philomene One', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: thin;
   font-stretch: expanded;
 }
 
-h2 {
-  font-family: 'Assistant', sans-serif;
+h2, p {
+  font-family: 'Oswald', sans-serif;
 }
 
 p, blockquote, li {
@@ -48,7 +48,7 @@ button {
 
 button:hover {
   background-color: rgb(32, 46, 68);
-  color: yellow;
+  color: white;
   border: thin yellow solid;
   transition: 0.8s;
 }

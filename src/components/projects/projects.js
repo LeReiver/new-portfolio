@@ -73,7 +73,7 @@ render() {
                   <button>View Project</button></a>
             </div>
             <div className="repo-button">
-                <a href="https://github.com/LeReiver/mike_vinylog_client" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/thinkful-ei21/mike_vinylog_client" target="_blank" rel="noopener noreferrer">
                 <button>View Repo</button></a>
             </div>
           </div>
@@ -224,70 +224,6 @@ render() {
           </div>
         </div>
       </div> 
-
-
-      <div className="project-block">
-        <div className="project-image desktop-mobile">
-          <img src={require("../../images/guano_desktop_phone.png")}alt="Guano"></img>
-        </div>
-        <div className="project-desc desktop-mobile">
-          <h2>Guano</h2>
-          <p className="project-p desc">
-          Guano is a mobile-first website for a band using a responsive CSS grid and utilizing LESS. The challenge on this project was incorporating a modifiable Audio Controller Plugin as an audio player.
-          </p>
-          <div className="stack-list">
-            <ul>
-              <li>PHP</li>
-              <li>jQuery</li>
-              <li>HTML5</li>
-              <li>CSS3/LESS</li>
-            </ul>
-          </div>
-          <div className="project-button-group">
-            <div className="project-button">
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <button>View Project</button></a>
-            </div>
-            <div className="repo-button">
-                <a href="https://github.com/LeReiver/guano" target="_blank" rel="noopener noreferrer">
-                <button>View Repo</button></a>
-            </div>
-          </div>
-        </div>
-      </div> 
-
-
-      <div className="project-block bm">
-        <div className="project-image desktop-mobile">
-          <img src={require("../../images/burrito_desktop_iphone.png")}alt="Burrito Masala"></img>
-        </div>
-        <div className="project-desc desktop-mobile">
-          <h2>Burrito Masala</h2>
-          <p className="project-p desc">
-          Burrito Masala is a mobile-first website for a fictitious food cart using a responsive CSS grid and utilizing LESS. 
-          </p>
-          <div className="stack-list">
-          <ul>
-              <li>PHP</li>
-              <li>jQuery</li>
-              <li>HTML5</li>
-              <li>CSS3/LESS</li>
-            </ul>
-          </div>
-          <div className="project-button-group">
-            <div className="project-button">
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <button>View Project</button></a>
-            </div>
-            <div className="repo-button">
-                <a href="https://github.com/LeReiver/burrito-masala" target="_blank" rel="noopener noreferrer">
-                <button>View Repo</button></a>
-            </div>
-          </div>
-        </div>
-      </div> 
-
-
     </div>
     );
   }

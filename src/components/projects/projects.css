@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-  color: #141414;
+  color: rgb(32, 46, 68);
   font-size: 30px;
   margin-top: 60px;
 }
@@ -72,7 +72,6 @@ hr {
 button {
   color: rgb(32, 46, 68); 
   border: rgb(32, 46, 68) solid thin;
-  font-weight: bold;
 }
 
 .project-button-group.website {
@@ -124,7 +123,7 @@ button {
   }
 
 .project-title {
-  margin: 50px auto 0;
+  margin: 20px auto 0;
   padding-top: 50px;
   color: rgb(32, 46, 68);
   font-size: 40px;
@@ -206,7 +205,7 @@ button {
 }
 
 #projects {
-  margin: 50px auto 0 auto;
+  margin: 40px auto 0 auto;
   background-color: rgba(56, 95, 113, 0.24);
   font-size: 80%;
 }
@@ -375,7 +374,6 @@ button {
   .project-block.bm {
     margin-bottom: 120px;
   }
-  
 
   .project-desc.app {
     margin-top: 30px;
@@ -401,8 +399,21 @@ button {
 
 @media only screen and (max-width: 600px) {
 
+  #projects {
+    margin: 20px auto 0;
+  }
+
+  .project-title {
+    margin-top: 20px;
+  }
+
   .project-block {
     margin: -80px auto 70px auto;
+  }
+
+  .project-block.vinyl {
+    margin-top: -50px;
+    margin-bottom: 100px;
   }
 
   .project-image.desktop-mobile img {
@@ -470,7 +481,7 @@ button {
   }
 
   .project-title {
-    margin: -30px auto 0;
+    /* margin: -30px auto 0; */
   }
 
   .project-image.desktop-mobile img {
@@ -503,6 +514,13 @@ button {
   margin-top: -30px;
 }
 
+  .project-block.guano {
+    margin-top: -230px;
+  }
+
+  .project-block.bm {
+    margin-top: -30px;
+  }
 
   .project-image.app img {
     height: 50vw;

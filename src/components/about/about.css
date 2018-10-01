@@ -4,12 +4,10 @@ section {
 }
 
 .about-title {
-  margin: 440px auto 50px auto;
+  margin: 400px auto 50px auto;
   padding-top: 100px; 
-  /* color: white; */
-
   color: #202e44!important;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 400;
   width: 600px;
 }
@@ -18,7 +16,6 @@ p, p.p2 {
   width: 800px;
   margin: 200px auto 0 auto;
   font-size: 30px;
-  /* color: white; */
   color: #202e44!important;
   max-width: 600px;
   text-align: center;
@@ -29,8 +26,6 @@ p.p2 {
 }
 
 p.p2.left.about {
-  /* font-size: 130%; */
-  font-weight: 500;
   margin: 20px auto;
   color: #202e44!important;
   text-align: start;
@@ -41,7 +36,6 @@ p.p2.left.about {
   margin-top: -320px;
   background-color: rgba(56, 95, 113, 0.24);
   background-blend-mode: multiply;
-  /* background-image: url('../../images/hero4.jpg'); */
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +55,7 @@ p.p2.left.about {
 
 @media only screen and (min-width: 400px) {
   .about-title {
-    margin-top: 400px;
+    margin-top: 380px;
     padding: 30px 5px 50px 5px;
   }
 
@@ -134,7 +128,7 @@ p.p2.left.about {
   }
 
   .about-title {
-    margin-top: 400px;
+    margin-top: 390px;
     padding: 50px 0;
     font-size: 38px;
     line-height: 110%;
@@ -142,7 +136,6 @@ p.p2.left.about {
   }
 
   p.p2.left.about {
-    font-size: 190%;
     text-align: start;
     width: 95%;
   }
@@ -159,7 +152,7 @@ p.p2.left.about {
   }
 
   p.p2.left.about {
-    font-size: 150%;
+    font-size: 20px;
     margin-top: 10px;
     padding-bottom: 100px;
   }
