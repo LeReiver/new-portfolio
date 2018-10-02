@@ -9,9 +9,7 @@ export default class About extends Component {
         <h1 className="about-title">Driven by Curiosity, Mastery, Technology, Sound, and Design</h1>
           <img className="bio-pic" src={require('../../images/bio-pic.jpg')}></img>
           <p className="p2 left about">
-          {/* Full-stack JavaScript developer with a focus on React/Redux, Node.js, and MongoDB.
-          <br /><br /> */}
-          My love for and experience with music, art, traveling, food, and most importantly people, has provided me with various skills that aid in being a successful developer. I am innately compelled to learn and share new things, whether its the latest JavaScript framework, new cooking techniques, or yet another musical instrument. I enjoy challenges that make me think outside the box and require creative solutions, as well as surrounding myself with diverse people who bring their own passion to the table.
+          My experience with music, art, traveling, food, and most importantly people, has provided me with skills to be a successful developer. I am innately compelled to learn and share new things, whether its the latest JavaScript framework, new cooking techniques or yet another musical instrument. I enjoy challenges that make me think outside the box and require creative solutions as well as surrounding myself with diverse people who bring their own passion to the table.
           </p>
       </section>
     );

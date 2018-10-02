@@ -34,6 +34,7 @@ p.p2.left.about {
 
 #about {
   margin-top: -320px;
+  padding-bottom: 8%;
   background-color: rgba(56, 95, 113, 0.24);
   background-blend-mode: multiply;
   background-position: top center;
@@ -68,14 +69,14 @@ p.p2.left.about {
 
 @media only screen and (max-width: 1024px) {
   #about {
-    padding-bottom: 45%;
+    padding-bottom: 48%;
   }
 
 }
 
 @media only screen and (max-width: 768px) {
   #about {
-    padding-bottom: 15%;
+    padding-bottom: 20%;
   }
 
 }

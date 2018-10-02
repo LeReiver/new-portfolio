@@ -15,7 +15,7 @@ render() {
         <div className="project-desc desktop-mobile">
           <h2>Karpul</h2>
           <p className="project-p desc">
-          Karpul is a web application that allows users to find and create carpools. Users can search for a carpool by destination address, request to join carpools, and get to know carpool members from their profile.
+          Karpul is a web application that allows users to find and create carpools. Users can search for a carpool by destination address, view nearby carpool pin-points on an interactive map, request to join carpools, and get to know carpool members from their profile.
           </p>
           <div className="stack-list">
             <ul>

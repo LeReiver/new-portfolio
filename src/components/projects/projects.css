@@ -126,7 +126,7 @@ button {
   margin: 20px auto 0;
   padding-top: 50px;
   color: rgb(32, 46, 68);
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 400;
 }
 
@@ -480,10 +480,6 @@ button {
     font-size: 20px;
   }
 
-  .project-title {
-    /* margin: -30px auto 0; */
-  }
-
   .project-image.desktop-mobile img {
     margin-bottom: 130px;
     margin-left: 25px;
@@ -510,9 +506,9 @@ button {
     margin-bottom: 80px;
 }
 
-.project-block.kc {
-  margin-top: -30px;
-}
+  .project-block.kc {
+    margin-top: -30px;
+  }
 
   .project-block.guano {
     margin-top: -230px;
