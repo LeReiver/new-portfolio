@@ -187,13 +187,13 @@ button {
   float: left;
   margin-left: 120px;
   margin-top: 20px;
-  height: 40px;
+  height: 35px;
 }
 
 .repo-button button {
    margin-top: 20px;
    margin-left: -30px;
-   height: 40px;
+   height: 35px;
 }
 
 .repo-button.disabled button:hover {
@@ -310,13 +310,13 @@ button {
     padding: 0;
     width: 100px;
     font-size: 90%;
-    height: 30px;
+    height: 35px;
   }
 
   .repo-button button {
     width: 100px;
     font-size: 90%;
-    height: 30px;
+    height: 35px;
     padding: 0;
   }
 

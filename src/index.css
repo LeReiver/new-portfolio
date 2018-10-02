@@ -34,10 +34,9 @@ button {
   border: thin white solid;
   cursor: pointer;
   text-align: center;
-  font-size: 120%;
-  width: 7.5em;
-  height: 50px;
-  font-weight: 200;
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
   transition: 0.8s;
   border-radius: 5px!important;
   -webkit-border-radius: 5px!important;

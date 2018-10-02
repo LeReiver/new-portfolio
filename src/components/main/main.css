@@ -28,6 +28,8 @@ p.p2.heading {
 .projects-button {
   color: yellow;
   border: thin white solid;
+  width: 130px;
+  font-weight: 200;
 }
 
 #home {
@@ -103,6 +105,12 @@ p.p2.heading {
     margin-top: -40px;
     font-size: 150%;
   }
+
+
+  .projects-button {
+    font-size: 15px;
+    height: 40px;
+  } 
 
 }
 
