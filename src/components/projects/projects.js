@@ -10,7 +10,7 @@ render() {
       <hr />
       <div className="project-block">
         <div className="project-image desktop-mobile">
-          <img src={require("../../images/karpul_desktop_phone.png")}alt="Karpul"></img>
+          <img src={require("../../images/karpul_desktop_phone_2.png")}alt="Karpul"></img>
         </div>
         <div className="project-desc desktop-mobile">
           <h2>Karpul</h2>
